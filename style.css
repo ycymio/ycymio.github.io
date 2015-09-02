@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+h1, p, a, button{
+    font-family: cursive,"STXinwei", KaiTi;
+}
+
+.firstpage{
+    height: 750px;
+}
+
+.first-bg{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+
+#firstbg{
+    background-image: url("image/main.jpg");
+}
+
+.title-text{
+    margin-left: 50px;
+}
+
+.titlefontsize h1{
+    font-size: 50pt;
+    color: #ffffff;
+}
+
+.h1content{
+    margin-top: 150px;
+    line-height: 75px;
+}
+
+.pcommon{
+    color: #ffffff;
+    font-size: 14pt;
+    margin-left: 80px;
+}
+
+/*.btn-enter{*/
+    /*margin-left: 360px;*/
+/*}*/
+
+.button{
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: #f2dede;
+    font-weight: bolder;
+    border: 2px solid rgba(255,255,255,0.8);
+    margin-left: 376px;
+    text-align:center;
+    /*margin: 0 auto;*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
