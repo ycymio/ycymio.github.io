@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="css/logstyle.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                <img alt="Brand" src="image/icon-pure.png" height="48px" width="249px">
+            </a>
+        </div>
+        <div class="dropdown-wrap boxed-velvet">
+            <ul class="dropdown inner clearfix" id="mytab">
+                <li><a href="blog.html"><span>Blog</span></a></li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hobbies
+                    </a>
+                    <ul class="submenu-1" role="menu">
+                        <li class="menu-level-1"><a href="#">Main Page</a></li>
+                        <li class="menu-level-1"><a href="#">Wish List</a></li>
+                        <li class="menu-level-1"><a href="#">Some Books</a></li>
+                    </ul>
+                </li>
+                <li class="disabled"><a href="#">Reserve</a></li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="submenu-1" role="menu">
+                        <li><a href="logpage.html">About website</a></li>
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Calendar(P)</a></li>
+                        <li><a href="#">私人快速导航(P)</a></li>
+                        <li><a href="#">留言模块</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="pages pages-velvet styled" id="log_website">
+                <div class="pages-title"><h3>About the website</h3></div>
+                <div class="page-form">
+                    <form>
+                        <div class="form-inner">
+                            <ul>
+                                工作日志界面参考版本: <br>
+                                <li>
+                                    Kit Name: Dark Velvet<br>
+                                </li>
+                                <li>
+                                    Kit URI: http://pixelkit.com/kits/dark-ui-kit<br>
+                                </li>
+                                <li>
+                                    Description: 100+ elements<br>
+                                </li>
+                                <li>
+                                    Version: 1.0<br>
+                                </li>
+                                <li>
+
+                                    Author: PixelKit<br>
+                                </li>
+                                <li>
+                                    Author URI: http://pixelkit.com<br>
+
+                                </li>
+                            </ul>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-8">
+        <!-- comment form -->
+           <div class="pages pages-velvet styled" id="pages">
+               <div class="pages-title"><h3> Update Log </h3></div>
+               <div class="page-form">
+                   <form>
+                       <div class="form-inner">
+                           <ol>
+                               <li>2015.09.03 完成主页和导航条</li><br>
+                               <li>2015.09.04 完善导航条，开始制作工作日志界面。</li>
+
+                           </ol>
+                       </div>
+                   </form>
+               </div>
+               <!--/ comment form -->
+           </div>
+        </div>
+
+
+<script src="jquery-2.1.4.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script>
+    $("#mytab a").click(function(e){
+        e.preventDefault();
+        $(this).tab("show");
+    })
+</script>
+
+</body>
+</html>
