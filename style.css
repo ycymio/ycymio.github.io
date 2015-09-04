@@ -1,3 +1,7 @@
+/*-----------------------------------*/
+/* Fonts */
+/*-----------------------------------*/
+
 *{
     margin:0;
     padding: 0;
@@ -9,19 +13,21 @@ h1, p, a, button{
 }
 
 .navbar-brand{
-    padding: 0 0;
+    padding: 0 16px 0 0;
 }
 
-.navbar-nav a{
-    font-size: 18px;
+.navbar-nav > li a{
+    font-size: 14px;
     /*SimHei FangSong*/
+    text-transform: uppercase;
     font-family: Lato,cursive,KaiTi_GB2312,SimSun,sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /*navbar -- Í¯»°·ç¸ñ*/
 .navbar-inverse .navbar-nav>li>a{
     color: #FFC0E0;
+    padding-right: 30px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover{
