@@ -15,11 +15,11 @@ h1, p, a, button{
 .navbar-nav a{
     font-size: 18px;
     /*SimHei FangSong*/
-    font-family: KaiTi_GB2312 ,sans-serif, cursive, SimSun;
+    font-family: Lato,cursive,KaiTi_GB2312,SimSun,sans-serif;
     font-weight: bold;
 }
 
-
+/*navbar -- 童话风格*/
 .navbar-inverse .navbar-nav>li>a{
     color: #FFC0E0;
 }
@@ -33,19 +33,22 @@ h1, p, a, button{
     color: #FFE0F0;
 }
 
-/*.navbar-inverse{background-color:#222;border-color:#080808}*/
-/*80c0*/
+.navbar-inverse .navbar-nav .dropdown-menu{
+    background-color: #080808;
+}
 
-/*.navbar-inverse .navbar-nav>li>a{color:#9d9d9d}*/
-/*.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover{*/
-    /*color:#fff;background-color:transparent}*/
-/*.navbar-inverse .navbar-nav>.active>a,.navbar-inverse */
-/*.navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover*/
-/*{color:#fff;background-color:#080808}*/
-/*.navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:focus,.navbar-inverse .navbar-nav>.disabled>a:hover{color:#444;background-color:transparent}.navbar-inverse .navbar-toggle{border-color:#333}.navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color:#333}.navbar-inverse .navbar-toggle .icon-bar{background-color:#fff}.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{border-color:#101010}.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse .navbar-nav>.open>a:hover{color:#fff;background-color:#080808}@media (max-width:767px){.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header{border-color:#080808}.navbar-inverse .navbar-nav .open .dropdown-menu .divider{background-color:#080808}.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color:#9d9d9d}.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{color:#fff;background-color:transparent}.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover{color:#fff;background-color:#080808}.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a,.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:focus,.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:hover{color:#444;background-color:transparent}}.navbar-inverse .navbar-link{color:#9d9d9d}.navbar-inverse .navbar-link:hover{color:#fff}.navbar-inverse .btn-link{color:#9d9d9d}.navbar-inverse .btn-link:focus,.navbar-inverse .btn-link:hover{color:#fff}.navbar-inverse .btn-link[disabled]:focus,.navbar-inverse .btn-link[disabled]:hover,fieldset[disabled] .navbar-inverse .btn-link:focus,fieldset[disabled] .navbar-inverse .btn-link:hover{color:#444}*/
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+    /*color: #ffffff;*/
+    color: #E7C9E7;
+    background-color: #080808;
+    /*导航栏下拉框字体颜色*/
+}
 
-/*color: #ffa6ce;*/
-
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
+    color:#A349A4;
+    background-color:#ffffff;
+}
 
 .firstpage{
     height: 750px;
