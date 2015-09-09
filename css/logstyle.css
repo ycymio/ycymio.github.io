@@ -54,12 +54,12 @@ html{
 /*-----------------------------------*/
 
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: Lato,'Cabin', SimSun,sans-serif;
     font-weight: 600;
     color:#959da6;
     font-size:14px;
     position:relative;
-    background: url("../image/bg.png");
+    background: url("../image/dark-velvet/bg.png");
     padding-top: 70px;
 }
 
@@ -166,10 +166,10 @@ body {
 }
 
 .dropdown ul li{
-    background: url(../image/cusel-bg-1.png) left top repeat-x;
+    background: url(../image/dark-velvet/cusel-bg-1.png) left top repeat-x;
 }
 .dropdown ul li:hover{
-    background: url(../image/cusel-bg-2.png) left top repeat-x;
+    background: url(../image/dark-velvet/cusel-bg-2.png) left top repeat-x;
 }
 .ie8 .dropdown ul li:hover{filter:none;}
 
@@ -217,9 +217,32 @@ body {
 /* Form*/
 /*-----------------------------------*/
 
-
 .pages.styled .page-form .form-inner{
+/*.pages.styled .page-form .form-inner{*/
     padding: 30px 19px 22px 30px;
+    line-height: 18px;
+}
+
+.styled .page-form .form-inner>ol>li{
+    /*padding: 30px 19px 22px 30px;*/
+    line-height: 30px;
+}
+
+.styled .page-form .form-inner>p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.styled .page-form .form-inner>ul{
+    margin-left: 10px;
+    margin-right: 10px;
+    /*margin-top: 20px;*/
+}
+
+.styled .page-form .form-inner>ul>li{
+    /*padding: 30px 19px 22px 30px;*/
+    /*line-height: 30px;*/
+    margin-left: 18px;
 }
 
 .pages.pages-velvet.styled{
@@ -251,7 +274,7 @@ body {
 }
 
 .pages-velvet.pages{
-    background: url(../image/comment-bg3.png) repeat;
+    background: url(../image/dark-velvet/comment-bg3.png) repeat;
     border-top: 1px solid #52585F;
     border-left: 1px solid #3C434D;
 }
@@ -264,25 +287,26 @@ body {
     border-radius: 3px 3px 0 0;
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
-    padding: 19px 20px 18px 33px;
+    padding: 19px 20px 1px 33px;
 }
 
 .pages-velvet .pages-title{
     box-shadow: 0 2px 2px rgba(0,0,0,0.26);
     -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.26);
     -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.26);
-    background: url(../image/comment-bg2.png) repeat;
-    padding: 11px 20px 9px 12px;
+    background: url(../image/dark-velvet/comment-bg2.png) repeat;
+    padding: 1px 20px 1px 12px;
 }
 
 .pages-velvet .pages-title h3{
-    padding-left: 25px;
+    padding-left: 30px;
     height: 20px;
     line-height: 16px;
-    background: url(../image/comment-title.png) no-repeat;
-    font-size: 16px;
+    background: url(../image/dark-velvet/comment-title.png) no-repeat;
+    font-size: 18px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
     color: #aeb6bd;
+    font-weight: bolder;
 }
 
 .label_title{
