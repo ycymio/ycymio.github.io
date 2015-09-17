@@ -15,5 +15,40 @@ body{
     padding-top: 70px;
 }
 
+.DIYcontainer{
+    width: 100%;
+    height: 300px;
+    background-color: #f2dede;
+    color:#3474AA;
+    font-family: cursive, "STXinwei", KaiTi;
+    font-size: 24px;
+}
+
+.DIYheading{
+    width: 100%;
+    height:20%;
+    background-color: #8B92B7;
+}
+
+.DIYmenu{
+    width: 30%;
+    height: 60%;
+    background-color: #F3977E;
+    float:left;
+}
+
+.DIYbody{
+    width: 70%;
+    height: 60%;
+    background-color: #CCA5AC;
+    float: left;
+}
+
+.DIYfooting{
+    width: 100%;
+    height: 20%;
+    background-color: #48A3E7;
+    clear:both;
+}
 /*row{*/
 /*}*/

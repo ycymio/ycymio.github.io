@@ -60,6 +60,201 @@
                 <p><del>del: 定义删除字</del></p>
             </div>
         </div>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>表格模块</h2>
+
+                <table class="table" border="3" background="image/main.jpg">
+                    <caption>带边框的表格</caption>
+                    <thead>
+                        <tr>
+                            <th>表头</th>
+                            <th>使用</th>
+                            <th>th标签</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>单元1</td>
+                            <td>单元2</td>
+                            <td>单元3</td>
+                        </tr>
+                        <tr>
+                            <td>单元4</td>
+                            <td></td>
+                            <td>←空单元格</td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">背景使用table的background属性, 跨行使用th的colspan属性</th>
+                        </tr>
+                        <tr>
+                            <th colspan="3">这里尝试使用bgcolor, cellpadding和cellspacing未果，应该使用bootstrap提供的属性</th>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <h2>列表模块</h2>
+            <div class="col-sm-2 col-md-offset-1">
+                <ul type="disc">
+                    <li>ul type="disc"</li>
+                    <li>小王子</li>
+                    <li>小狐狸</li>
+                    <li>向日葵</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul type="circle">
+                    <li>ul type="circle"</li>
+                    <li>小王子</li>
+                    <li>小狐狸</li>
+                    <li>向日葵</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul type="square">
+                    <li>ul type="square"</li>
+                    <li>小王子</li>
+                    <li>小狐狸</li>
+                    <li>向日葵</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ol type="a">
+                    <li>ol type="a"</li>
+                    <li>(改为"A"则为大写)</li>
+                    <li>小狐狸</li>
+                    <li>向日葵</li>
+                </ol>
+            </div>
+            <div class="col-sm-2">
+                <ol type="i">
+                    <li>ol type="i"</li>
+                    <li>(改为"I"则为大写)</li>
+                    <li>小狐狸</li>
+                    <li>向日葵</li>
+                </ol>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-2 col-md-offset-1">
+                <ol start="12">
+                    <li>ol start="12"</li>
+                    <li>小王子</li>
+                    <li>小狐狸</li>
+                    <li>向日葵</li>
+                </ol>
+            </div>
+            <div class="col-sm-2">
+                <ol>
+                    <li>嵌套列表
+                        <ul>
+                            <li>小王子</li>
+                            <li>小狐狸</li>
+                            <li>向日葵</li>
+                        </ul>
+                    </li>
+                    <li>
+                        第二项
+                        <ul>
+                            <li>HelloWorld</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-sm-2">
+                <dl>
+                    <dt>自定义列表
+                        <dd>dl标签：列表</dd>
+                    </dt>
+                    <dt>自定义列表
+                        <dd>dt标签：列表项</dd>
+                    </dt>
+                    <dt>自定义列表
+                        <dd>dd标签：描述</dd>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <h2>div元素布局</h2>
+            <div class="DIYcontainer">
+                <div class="DIYheading">头部</div>
+                <div class="DIYmenu">内容菜单</div>
+                <div class="DIYbody">内容主体</div>
+                <div class="DIYfooting">尾部</div>
+            </div>
+        </div>
+
+        <br/>
+        <div class="row">
+            <h2>table元素布局</h2>
+            <table width="100%" height="300px" style="background-color: #7d729A; color: #BBEAFB">
+                <tr>
+                    <td colspan="3" width="100%" height="20%" style="background-color: #bc7185">头部</td>
+                </tr>
+                <tr>
+                    <td width="20%" height="60%" style="background-color: #48A3E7">左菜单</td>
+                    <td width="60%" height="60%" style="background-color: #8B92B7">内容主题</td>
+                    <td width="20%" height="60%" style="background-color: #78b4e7">右菜单</td>
+
+                </tr>
+                <tr>
+                    <td colspan="3" width="100%" height="20%" style="background-color: #F3977E">底部</td>
+                </tr>
+            </table>
+        </div>
+        <br/>
+        <div class="row">
+            <h2>表单模块</h2>
+            <div class="col-md-3">
+                <form action="http://localhost/" method="post">
+                    用户名：
+                    <input type="text" name="name">
+                    <br/><br/>
+                    密码：
+                    <input type="password" name="password">
+                    <br/><br/>
+                    按钮:&nbsp&nbsp&nbsp
+                    <input type="button" value="按钮">&nbsp&nbsp&nbsp
+                    <input type="submit" value="提交">
+                </form>
+            </div>
+            <div class="col-md-3 col-md-offset-1">
+                <form>
+                    复选框:
+                    <br/>
+                    复选框1 <input type="checkbox">
+                    复选框2 <input type="checkbox">
+                    复选框3 <input type="checkbox">
+                    <br/><br/>
+                    单选框: <br/>
+                    单选框1 <input type="radio" name="sex">
+                    单选框2 <input type="radio" name="sex">
+                    <br/><br/>
+                </form>
+            </div>
+            <div class="col-md-3 col-md-offset-1">
+                <form>
+                    下拉列表:&nbsp&nbsp&nbsp
+                    <select>
+                        <option>select</option>
+                        <option>option</option>
+                    </select>
+                    <br/><br/>
+                    文本域:<br/>
+                    <textarea cols="20" rows="2"></textarea>
+                </form>
+            </div>
+        </div>
+        <br/>
     </div>
 </body>
 </html>
