@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: #272B2B url("../image/bg-travel.jpg") no-repeat fixed center center;;
+    background-size: cover;
+    font-family: »ªÎÄÏ¸ºÚ, "Microsoft YaHei", Î¢ÈíÑÅºÚ, "Microsoft JhengHei", STHeiti, MingLiu;
+}
+
+.travel{
+    margin: 10% 10% 20px 10%;
+    width: 80%;
+    font-size: 32px;
+    text-indent: 10px;
+    color: #ffffff;
+}
+
+.travel .subtitle{
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    text-indent: 100px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 10% 10% 10%;
+    background-color: rgba(32,122,0,0.5);
+    border-radius: 5px;
+    border: 1px solid #38B003;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 2px;
+    width: 20%;
+    text-align: left;
+    text-indent: 32px;
+    color:rgba(255,255,255,0.8);
+    font-size: 20px;
+    line-height: 54px;
+    background-color: rgba(88,145,64,0.8);
+}
+
+.content{
+    /*opacity: 0.5;*/
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+    color:rgba(255,255,255,0.8);
+    font-size: 16px;
+    text-indent: 32px;
+    /*background-color: rgba(32,100,1,0.5);*/
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.time{
+    text-align: right;
+}
