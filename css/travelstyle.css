@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background: #272B2B url("../image/bg-travel.jpg") no-repeat fixed center center;;
+    background: #272B2B url("../image/bg-travel.jpg") no-repeat fixed center center;
     background-size: cover;
     font-family: »ªÎÄÏ¸ºÚ, "Microsoft YaHei", Î¢ÈíÑÅºÚ, "Microsoft JhengHei", STHeiti, MingLiu;
 }
 
 .travel{
-    margin: 10% 10% 20px 10%;
+    margin: 100px auto 30px auto;
     width: 80%;
     font-size: 32px;
     text-indent: 10px;
@@ -59,3 +59,4 @@ p{
 .time{
     text-align: right;
 }
+

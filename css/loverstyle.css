@@ -1,0 +1,62 @@
+body{
+    font-family: cursive, »ªÎÄÏ¸ºÚ, "Microsoft YaHei", Î¢ÈíÑÅºÚ, "Microsoft JhengHei", STHeiti, MingLiu;
+    margin: 0;
+    background: #886E52 url("../image/bg-lover.jpg") no-repeat fixed center center;
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+}
+
+.subtitle{
+    margin: 10px auto 30px auto;
+    font-size: 16px;
+    text-indent: 60px;
+    font-weight: bolder;
+}
+
+.main{
+    background-color: rgba(252,231,187,0.5);
+    border-radius: 10px;
+    border: 1px solid rgba(252, 201, 145, 1);
+    padding-bottom: 200px;
+}
+
+.lastitle{
+    font-size: 18px;
+    font-family: cursive, "STXinwei", KaiTi;
+    margin: 0px 20% 10px 0;
+    text-align: right;
+}
+
+.content{
+    margin: 100px auto 0 auto;
+    width: 70%;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+    /*color: #62216c;*/
+    color: rgba(0,0,0,0.77);
+    font-weight: bolder;
+    font-size: 15px;
+    text-indent: 32px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.time{
+    text-align: right;
+}
+
+.music{
+    line-height: 2em;
+    overflow: hidden;
+    padding: 120px 60px;
+    text-align: center;
+}
