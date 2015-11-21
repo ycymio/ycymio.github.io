@@ -1,0 +1,83 @@
+@font-face {
+    font-family: fArial;
+    src: local("Arial"), url("../font/arial.ttf")format("truetype");
+}
+
+@font-face {
+    font-family: fCabin;
+    src: local("Cabin"), url("../font/Cabin-Bold.ttf")format("truetype");
+}
+
+@font-face {
+    font-family: fLato;
+    src: local("Lato"), url("../font/Lato-Regular.ttf")format("truetype");
+    /*font-weight: 100;*/
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    padding: 100px 10% 100px 10%;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 0 0 10px grey;
+}
+
+div[id*=font]{
+    border-top-style: double;
+    /*border-bottom-style: double;*/
+    border-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.sample{
+    color: #e4e4e4;
+    font-size: 20px;
+    /*text-indent: 50px;*/
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#div-font-cursive{
+    font-family: cursive;
+}
+
+#div-font-fantasy{
+    font-family: fantasy;
+}
+
+#div-font-monospace{
+    font-family: monospace;
+}
+
+#div-font-sans-serif{
+    font-family: sans-serif;
+}
+#div-font-serif{
+    font-family: serif;
+}
+
+#div-font-Arial{
+    font-family: fArial;
+    /*font-size: 20px;*/
+}
+
+#div-font-Cabin{
+    font-family: fCabin;
+}
+
+#div-font-Lato{
+    font-family: fLato;
+}
+

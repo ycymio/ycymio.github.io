@@ -319,7 +319,7 @@ body {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.45);
 }
 
-ul li ul{
+.form-inner>ul li ul{
     list-style: square;
     padding-left: 30px;
 }
