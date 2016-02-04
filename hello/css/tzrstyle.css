@@ -1,0 +1,28 @@
+@font-face {
+    font-family: fButterfly;
+    src: local("翩翩体"), url("../font/华康细版翩翩体.ttf")format("truetype");
+}
+
+body{
+    background-color: purple;
+    color: white;
+    font-family:fButterfly;
+}
+
+h3{
+    text-align: center;
+}
+
+.diary{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.diary-content p{
+    text-indent: 32px;
+}
+
+.diary-date{
+    text-align: right;
+}
