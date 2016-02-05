@@ -1,6 +1,6 @@
 @font-face {
     font-family: fButterfly;
-    src: local("翩翩体"), url("../font/华康细版翩翩体.ttf")format("truetype");
+    src: local("翩翩体"), url("../font/华康细版翩翩体.ttf")format("");
 }
 
 body{
@@ -20,7 +20,7 @@ body{
 h2{
     text-align: center;
     color: #c47c6c;
-    font-family: fButterfly;
+    font-family: "翩翩体", fButterfly, KaiTi;
     font-weight: 900;
 }
 
