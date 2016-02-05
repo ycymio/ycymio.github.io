@@ -5,6 +5,7 @@
 
 body{
     background-color: oldlace;
+    margin-top: 0px;
 }
 
 .container{
@@ -59,7 +60,10 @@ h3{
     background: -o-linear-gradient(left, oldlace, #fde498 10%, #f7bc83 20%, #c47c6c 50%, #f7bc83 80%,#fde498 90%, oldlace 100%);
     background:  linear-gradient(to right, oldlace, #fde498 10%, #f7bc83 20%, #c47c6c 50%, #f7bc83 80%,#fde498 90%, oldlace 100%);
     /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f0f0f0,endColorstr=oldlace,GradientType=0);*/
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
 }
 
 img{
