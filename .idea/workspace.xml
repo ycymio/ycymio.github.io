@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="romantic.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="romantic.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/romantic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.027985075">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="romanticstyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="romanticstyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book/css/romanticstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.7201493">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -777,12 +777,12 @@
       <workItem from="1454600704437" duration="3000" />
       <workItem from="1454671068870" duration="2620000" />
       <workItem from="1454683007304" duration="189000" />
-      <workItem from="1454683382977" duration="235000" />
+      <workItem from="1454683382977" duration="334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6374000" />
+    <option name="totallyTimeSpent" value="6473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="313" y="23" width="967" height="707" extended-state="0" />
@@ -1177,18 +1177,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/css/romanticstyle.css">
+    <entry file="file://$PROJECT_DIR$/book/romantic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/romantic.html">
+    <entry file="file://$PROJECT_DIR$/book/css/romanticstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027985075">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.7201493">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
