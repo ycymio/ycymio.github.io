@@ -16,6 +16,13 @@ body{
     border-radius: 10px;
 }
 
+h2{
+    text-align: center;
+    color: #c47c6c;
+    font-family: fButterfly;
+    font-weight: 900;
+}
+
 h3{
     text-align: left;
     color: saddlebrown;
@@ -30,14 +37,31 @@ h3{
     color: chocolate;
     margin: 10px 0px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .outline{
     color: dimgrey;
     margin: 10px 5%;
+    font-size: 14px;
 }
 
 .comment{
     font-family: fButterfly;
     margin: 10px 5%;
+    font-size: 15px;
+}
+
+.picture{
+    text-align: center;
+    background: -webkit-linear-gradient(left, oldlace, #fde498 10%, #f7bc83 20%, #c47c6c 50%, #f7bc83 80%,#fde498 90%, oldlace 100%);
+    background: -moz-linear-gradient(left, oldlace, #fde498 10%, #f7bc83 20%, #c47c6c 50%, #f7bc83 80%,#fde498 90%, oldlace 100%);
+    background: -o-linear-gradient(left, oldlace, #fde498 10%, #f7bc83 20%, #c47c6c 50%, #f7bc83 80%,#fde498 90%, oldlace 100%);
+    background:  linear-gradient(to right, oldlace, #fde498 10%, #f7bc83 20%, #c47c6c 50%, #f7bc83 80%,#fde498 90%, oldlace 100%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f0f0f0,endColorstr=oldlace,GradientType=0);*/
+    margin-bottom: 50px;
+}
+
+img{
+    width: 70%;
 }
