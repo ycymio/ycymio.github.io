@@ -33,7 +33,7 @@ h3{
     color:lightseagreen;
 }
 
-.rtitle{
+.title{
     margin-bottom: 10px;
     color: chocolate;
     margin: 10px 0px;
@@ -42,6 +42,7 @@ h3{
 }
 
 .outline{
+    text-indent: 28px;
     color: dimgrey;
     margin: 10px 5%;
     font-size: 14px;
@@ -51,6 +52,7 @@ h3{
     font-family: "翩翩体", fButterfly, KaiTi;
     margin: 10px 5%;
     font-size: 15px;
+    text-indent: 30px;
 }
 
 .picture{
@@ -68,4 +70,17 @@ h3{
 
 img{
     width: 70%;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.top_comment{
+    font-family: "翩翩体", fButterfly, KaiTi;
+    margin: 10px 5%;
+    color: #c47c6c;
+    font-size: 15px;
+    text-indent: 30px;
 }
