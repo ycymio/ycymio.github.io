@@ -14,7 +14,7 @@ h3{
 }
 
 .diary{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -25,4 +25,11 @@ h3{
 
 .diary-date{
     text-align: right;
+    border-bottom: white;
+    border-bottom-style: solid;
+}
+
+.music{
+    text-align: center;
+    margin-top: 40px;
 }
