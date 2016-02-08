@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: lightpink;
+    color: #d0494f;
+}
+
+#container{
+    border: 3px solid #d0494f;
+    border-radius: 15px;
+    margin: 20px 10%;
+}
+
+.step{
+    /*position: absolute;*/
+    /*float: none;*/
+    /*width: 100%;*/
+}
+.topic{
+    font-size: 20px;
+    margin: 20px 20px;
+    color: #d0494f;
+}
+
+.content{
+    font-size: 16px;
+    margin: 5px 30px;
+}
+
+.having{
+    margin: 10px auto;
+    color: deeppink;
+}
+
+.tohave{
+    margin: 10px auto;
+    color: #f4ebd8;
+}
+
+.consider {
+    margin: 10px auto;
+    color: #d0494f;
+}
+
+.picture{
+    text-align: center;
+    /*background: -webkit-linear-gradient(left, lightpink, oldlace 15%, oldlace 85%,lightpink 100%);*/
+    /*background: -moz-linear-gradient(left, lightpink, oldlace 15%, oldlace 85%,lightpink 100%);*/
+    /*background: -o-linear-gradient(left, lightpink, #fde498 10%, #f7bc83 20%, #c47c6c 50%, #f7bc83 80%,#fde498 90%, lightpink 100%);*/
+    background:  linear-gradient(to right, lightpink, #f4ebd8 20%, #f4ebd8 80%, lightpink 100%);
+}
+
+img{
+    width: 60%;
+}
+
+p{
+    margin: 5px 0 0 0;
+    text-indent: 28px;
+}
