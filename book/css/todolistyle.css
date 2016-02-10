@@ -1,0 +1,42 @@
+@font-face {
+    font-family: fButterfly;
+    src: local("翩翩体"), url("../font/华康细版翩翩体.ttf")format("");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #313ba3;
+    /*color: #6d68e5;*/
+}
+
+.container{
+    margin: 20px 20px;
+}
+
+ul{
+    color: #6d68e5;
+    font-family: "翩翩体", fButterfly, KaiTi;
+    margin: 32px 10%;
+}
+
+[id ^= "todolist"]{
+    color: #c799e6;
+    font-size: 20px;
+    font-family: "翩翩体", fButterfly, KaiTi;
+}
+
+.tododiv{
+    border: 5px solid #c799e6;
+    margin: 32px 10%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(199,53,230,0.5);
+    text-shadow: 3px 3px 5px rgba(199,53,230,0.5);
+}
+
+.others{
+    margin: 32px 18%;
+}
