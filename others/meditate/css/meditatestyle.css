@@ -1,0 +1,38 @@
+@font-face {
+    font-family: fButterfly;
+    src: local("翩翩体"), url("../font/华康细版翩翩体.ttf")format("");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: oldlace;
+    color: #c47c6c;
+    font-family: "翩翩体", fButterfly, KaiTi;
+}
+
+b{
+    /*text-shadow: none;*/
+    color: dimgrey;
+    text-shadow: 0px 0px 3px rgba(196, 124, 108, 0.5);
+}
+
+#container{
+    margin: 10px 10%;
+}
+
+.title{
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+    color: black;
+    text-shadow: 0px 0px 3px rgba(196, 124, 108, 0.5);
+}
+
+.part{
+    font-size: 16px;
+    text-indent: 32px;
+    margin: 10px 0px 10px 0px;
+}
