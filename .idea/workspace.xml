@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc52f968-2c26-45ae-8acd-01e85597cdd2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/css/todolistyle.css" afterPath="$PROJECT_DIR$/book/css/todolistyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/todolist.html" afterPath="$PROJECT_DIR$/book/todolist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello/jarontang.html" afterPath="$PROJECT_DIR$/hello/jarontang.html" />
-    </list>
+    <list default="true" id="fc52f968-2c26-45ae-8acd-01e85597cdd2" name="Default" comment="" />
     <ignored path="my-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -709,12 +705,12 @@
       <workItem from="1454824805037" duration="1153000" />
       <workItem from="1454911486037" duration="5164000" />
       <workItem from="1454932434376" duration="6474000" />
-      <workItem from="1455088045166" duration="3456000" />
+      <workItem from="1455088045166" duration="3492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26142000" />
+    <option name="totallyTimeSpent" value="26178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
