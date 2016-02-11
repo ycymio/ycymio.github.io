@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    color: lightseagreen;
+    background-color: oldlace;
+}
+
+.container{
+    margin: 20px 10% 20px 10%;
+}
+
+.partial{
+    padding: 10px 10px;
+    border-top: 5px double #c47c6c;
+}
+
+p{
+    margin: 5px 10px 5px 30px;
+    /*text-indent: 32px;*/
+}
+
+button{
+    margin: 5px 10px 5px 30px;
+    padding: 5px;
+    line-height: 20px;
+    text-align: center;
+    background-color: oldlace;
+    border-radius: 5px;
+}
+
+button ~ button{
+    margin-left: 20px;
+}
+
+.topic{
+    font-size: 18px;
+    margin: 10px 10px 5px 10px;
+    color: #c47c6c;
+}

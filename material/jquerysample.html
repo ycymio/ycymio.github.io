@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery一些示例</title>
+    <link href="css/jquerysample.css" rel="stylesheet"/>
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/jquerysample.js"></script>
+    <!--注意引用顺序和依赖关系-->
+</head>
+<body>
+    <div class="container">
+        <div class="partial">
+            <p class="topic"> 点击可隐藏以下p元素 </p>
+            <p class="hidden"> $(document).ready(function(){</p>
+            <p class="hidden"> &nbsp; &nbsp; //alert("文档加载完毕");</p>
+            <p class="hidden"> &nbsp; &nbsp; $(".hidden").click(function(){</p>
+            <p class="hidden"> &nbsp; &nbsp; &nbsp; &nbsp; $(this).hide();</p>
+            <p class="hidden"> &nbsp; &nbsp; })</p>
+            <p class="hidden"> }); </p>
+        </div>
+        <div class="partial">
+            <p class="topic"> 点击 "Click me" 可修改下行元素 </p>
+            <p id="pclickupdate"> Hello jQuery! </p>
+            <p> $("#bclickupdate").click(function(){ </p>
+            <p> &nbsp; &nbsp; $("#pclickupdate").text("id为pclickupdate的元素被修改");</p>
+            <p>  }) </p>
+            <button id="bclickupdate">click me</button>
+        </div>
+        <div class="partial spacing">
+            <p class="topic"> jQuery常用事件方法:</p>
+            <p id="clickhide">.click(): click me and I'll hide myself</p>
+            <p id="dblclickhide">.dblclick(): double click me and I'll hide myself</p>
+            <p id="mouseenterhide">.mouseenter(): mouse enters here to hide it</p>
+            <p id="mouseleavehide">.mouseleave(): mouse leaves here to hide it</p>
+        </div>
+        <div class="partial">
+            <p class="topic"> jQuery绑定和解绑事件(其上方法耗内存+这个可以同时触发):</p>
+            <p id="bindtest">.bind()/.on() && .unbind()/.off(): initial content - click me</p>
+            <button id="initialbutton"> Content initials</button>
+            <button id="bindbutton"> BIND Button</button>
+            <button id="unbindbutton"> UNBIND Button</button>
+        </div>
+        <div class="partial" id="targetdiv">
+            <p class="topic">事件的目标: target与currentTarget的区别</p>
+            <p> currentTarget: <span id="currentargetest">none</span>
+                target: <span id="targetest">none</span></p>
+        </div>
+        <div class="partial">
+            <p class="topic">事件的冒泡:</p>
+            <div id="propagation1">
+                <p>第一层事件 || .stopPropagation() 阻止祖先事件发生</p>
+                <div id="propagation2">
+                    <p>第二层事件 || .stopImmediatePropagation() 阻止所有事件(包括本身绑定的)发生</p>
+                    <div id="propagation3">
+                        <p>第三层事件</p>
+                        <p id="propagationmodified">Here may be modified. </p>
+                        <p>事件发生所在地: <span id="propagationtest">none</span></p>
+                        <button id="initialpropagation">初始化</button>
+                        <button id="normalpropagation">一般按钮</button>
+                        <button id="stoppropagation">阻止祖先事件发生</button>
+                        <button id="stopimmediatepropagation">阻止所有事件(包括本身绑定的)发生</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partial">
+            <p class="topic">自定义事件:</p>
+            <div id="customize">
+                <p>自定义事件: <span id="customizetest"></span></p>
+                <button id="customizevent">触发事件</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
