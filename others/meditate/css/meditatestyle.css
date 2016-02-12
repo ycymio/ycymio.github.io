@@ -10,29 +10,32 @@
 
 body{
     background-color: oldlace;
-    color: #c47c6c;
+    color: #333;
+    font-size: 16px;
     font-family: "翩翩体", fButterfly, KaiTi;
 }
 
-b{
-    /*text-shadow: none;*/
-    color: dimgrey;
-    text-shadow: 0px 0px 3px rgba(196, 124, 108, 0.5);
+.emphasize{
+    border-bottom: 2px dotted #666;
+    padding-bottom: 2px;
+    color: black;
+    /*text-shadow: 0px 0px 1px #444;*/
 }
 
 #container{
-    margin: 10px 10%;
+    margin: 10px 15%;
 }
 
-.title{
-    font-size: 20px;
-    margin: 20px 0px 10px 0px;
+.signature{
+    font-size: 18px;
+    margin: 20px 50px 10px 0px;
     color: black;
-    text-shadow: 0px 0px 3px rgba(196, 124, 108, 0.5);
+    text-align: right;
+    /*text-shadow: 0px 0px 3px rgba(196, 124, 108, 0.5);*/
 }
 
 .part{
-    font-size: 16px;
-    text-indent: 32px;
+    font-size: 20px;
+    text-indent: 40px;
     margin: 10px 0px 10px 0px;
 }
