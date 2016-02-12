@@ -12,33 +12,91 @@ body{
 
 .container{
     margin: 20px 10% 20px 10%;
+    /*position: relative;*/
+}
+
+.container>div{
+    float: left;
+    overflow: scroll;
+    width: 45%;
+    height: 180px;
+    position: relative;
 }
 
 .partial{
-    padding: 10px 10px;
-    border-top: 5px double #c47c6c;
+    margin: 10px 10px;
+    padding-right: 10px;
+    border: 5px double #f7bc83;
+    border-right-style: hidden;
+    border-radius: 0 50px 20px 50px;
 }
 
 p{
     margin: 5px 10px 5px 30px;
-    /*text-indent: 32px;*/
 }
 
 button{
-    margin: 5px 10px 5px 30px;
-    padding: 5px;
+    margin: 6px 10px 5px 40px;
+    padding: 3px 5px 3px 5px;
     line-height: 20px;
     text-align: center;
+    text-shadow: 1px 0 3px #aaaaaa;
     background-color: oldlace;
     border-radius: 5px;
-}
-
-button ~ button{
-    margin-left: 20px;
+    border: 1px ridge #333333;
+    box-shadow: 1px 0 3px #aaaaaa;
 }
 
 .topic{
     font-size: 18px;
-    margin: 10px 10px 5px 10px;
+    margin: 15px 10px 8px 20px;
     color: #c47c6c;
+}
+
+div[id^="fadetest"]{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    float: left;
+    /*display: none;*/
+}
+
+#slidedown{
+    margin: 0 20px;
+    color:deeppink;
+    padding: 5px;
+    text-align: center;
+    background-color: pink;
+    border: solid 2px hotpink;
+    border-radius: 10px 10px 0 0;
+}
+
+#slideup{
+    margin: 0 20px;
+    color:deeppink;
+    padding: 5px;
+    text-align: center;
+    background-color: pink;
+    border: solid 2px hotpink;
+}
+
+#slidetoggle{
+    margin: 0 20px;
+    color:deeppink;
+    padding: 5px;
+    text-align: center;
+    background-color: pink;
+    border: solid 2px hotpink;
+}
+
+#slidetest{
+    color:deeppink;
+    margin: 0 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: pink;
+    border: solid 2px hotpink;
+    border-top-style: hidden;
+    border-radius: 0 0 10px 10px;
+    display: none;
 }

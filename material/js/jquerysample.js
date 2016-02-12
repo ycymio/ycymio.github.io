@@ -65,9 +65,43 @@ $(document).ready(function(){
     });
 
     $("#customizevent").on("click", customizeTest);
+
+    $("#hidebutton").click(function(){
+        $("#hidetest").hide(1000);
+    });
+
+    $("#showbutton").click(function(){
+        $("#hidetest").show(1000);
+    });
+
+    $("#hideandshow").click(function(){
+        $("#hidetest").toggle(1000);
+    });
+
+    $("#fadein").on("click", fadeinTest);
+
+    $("#fadeout").on("click", fadeoutTest);
+
+    $("#fadetoggle").on("click", fadetoggleTest);
+
+    $("#fadeto").on("click", fadetoTest);
+
+    $("#slidedown").click(function(){
+        $("#slidetest").slideDown(500);
+    });
+
+    $("#slideup").click(function(){
+        $("#slidetest").slideUp(500);
+    });
+
+    $("#slidetoggle").click(function(){
+        $("#slidetest").slideToggle(500);
+    });
+
+    $("#callbackbutton").on("click", callbackTest);
 });
 
-function bindTest(e){
+function bindTest(){
     $(this).text(".bind: the event is binded already.");
 }
 
@@ -77,7 +111,7 @@ function targetTest(e){
 }
 
 function propagationTest(e){
-    var text = document.getElementById("propagationtest");
+    //var text = document.getElementById("propagationtest");
     $("#propagationtest").append("--"+e.currentTarget.id);
 }
 
@@ -94,11 +128,7 @@ function modifiedTest(){
     $("#propagationmodified").text("该事情发生在按钮点击以后");
 }
 
-function conlog(x){
-    console.log(x);
-}
-
-function customizeTest(event){
+function customizeTest(){
     var text = document.getElementById("customizetest");
     var e = jQuery.Event("你好");
     var m = text.textContent.toString().match(e.type);
@@ -108,4 +138,35 @@ function customizeTest(event){
     }
 }
 
+function fadeinTest(){
+    $("#fadetest1").fadeIn(1000);
+    $("#fadetest2").fadeIn(1000);
+    $("#fadetest3").fadeIn(1000);
+}
+
+function fadeoutTest(){
+    $("#fadetest1").fadeOut(1000);
+    $("#fadetest2").fadeOut(1000);
+    $("#fadetest3").fadeOut(1000);
+}
+
+function fadetoggleTest(){
+    $("#fadetest1").fadeToggle(1000);
+    $("#fadetest2").fadeToggle(1000);
+    $("#fadetest3").fadeToggle(1000);
+}
+
+function fadetoTest(){
+    $("#fadetest1").fadeTo(1000, 0.3);
+    $("#fadetest2").fadeTo(1000, 0.5);
+    $("#fadetest3").fadeTo(1000, 0.7);
+}
+
+function callbackTest(){
+    $("#callbacktest").slideUp(1000).slideDown(1000);
+}
+
+function conlog(x){
+    console.log(x);
+}
 
