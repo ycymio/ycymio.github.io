@@ -67,6 +67,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:github
+  type:git
   repository: git@github.com:ycymio/ycymio.github.io.git
   branch: gh-pages
+message: "Site update :)"
