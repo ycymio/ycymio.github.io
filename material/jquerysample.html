@@ -101,6 +101,74 @@
             <button id="callbackbutton">Click me</button>
             <p id="callbacktest">Everything Should Be Made as Simple as Possible, But Not Simpler.</p>
         </div>
+        <div class="partial">
+            <p class="topic">jQuery HTML-捕获</p>
+            <p>结果: <span id="textresult"></span></p>
+            <p id="textest"> a: <a href="#" id="textattr">hello world.</a></p>
+            <button id="btn-textest">.text():  获取元素内容(不能获取标签)</button>
+            <button id="btn-htmltest">.html(): 获取HTML语言内容(显示标签)</button>
+            <p><input type="text" id="textinput" value="HELLO WORLD"></p>
+            <button id="btn-inputget">.val(): text框的输入获取</button>
+            <button id="btn-textattrtest">.attr("..."): 获取元素属性</button>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery HTML-设置(有回调函数)</p>
+            <p id="settingtest">.text(): 对内容进行修改</p>
+            <button id="btn-setting-html">点击</button>
+            <input type="text" id="ip-setting" value="hello world">
+            <button id="btn-setting-input">点击</button>
+            <p>.attr(): 修改属性(多个属性用大括号, 属性间用逗号隔开 || <a id="a-setting" href="#">初始化后为当前界面, 后为你试试呀~</a></p>
+            <button id="btn-setting-attr">点击</button>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery HTML-添加内容和元素</p>
+            <p id="appendtest">||</p>
+            <button id="btn-append">.append()</button>
+            <button id="btn-prepend">.prepend()</button>
+            <button id="btn-before">.before()</button>
+            <button id="btn-after">.after()</button>
+            <button id="btn-multiappend">追加元素</button>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery HTML-删除元素</p>
+            <div id="div-remove" style="width: 300px; height: 70px; background-color:pink; margin: 10px 20px 6px 20px; padding: 10px; border-radius: 10px">
+                <p> hello world </p>
+                <p> .remove(): 全部删除</p>
+                <p> .empty(): 删除里面的子元素</p>
+            </div>
+            <button id="btn-remove">.remove()</button>
+            <button id="btn-empty">.empty()</button>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery CSS-CSS方法</p>
+            <div id="div-css">
+                <p style="margin: 0px; padding: 5px 5px 0 5px;">.css(): 设置css属性</p>
+                <p style="margin: 0px; padding: 5px 5px 0 5px;">$("#div-css").css({ width: "400px", height: "auto", margin: "10px 20px 5px 20px", padding: "10px"});</p>
+                <p style="margin: 0px; padding: 5px 5px 0 5px;">$("#div-css").css("background-color", "pink");</p>
+            </div>
+            <button id="btn-addclass">.addClass()</button>
+            <button id="btn-removeclass">.remove()</button>
+            <button id="btn-toggleclass">.toggle()</button>
+            <div id="div-addclass">
+                <p>.addClass(): 给标签添加类名</p>
+                <p>.removeClass(): 给标签移除类名</p>
+                <p>.toggleClass(): 给标签添加/移除类名</p>
+                <p>&nbsp;&nbsp;&nbsp;$("#div-addclass").addClass("css-test"); //其余同</p>
+            </div>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery CSS-盒子模型</p>
+            <div id="div-box">
+                <p>.height(): 标签纯高度 <span id="span-box-height"> </span> </p>
+                <p>.width(): 标签纯宽度 <span id="span-box-width"> </span> </p>
+                <p>.innerHeight(): 标签高度(包括至padding) <span id="span-box-innerheight"> </span> </p>
+                <p>.innerWidth(): 标签宽度(包括至padding) <span id="span-box-innerwidth"> </span> </p>
+                <p>.outerHeight(): (无参)标签高度(包括至border) <span id="span-box-outerheight"> </span> </p>
+                <p>.outerWidth(): (无参)标签宽度(包括至border)<span id="span-box-outerwidth"> </span> </p>
+                <p>.outerHeight(true): 标签高度(包括至margin) <span id="span-box-outerheightrue"> </span> </p>
+                <p>.outerWidth(true): 标签宽度(包括至margin)<span id="span-box-outerwidthtrue"> </span> </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

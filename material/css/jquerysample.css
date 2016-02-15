@@ -100,3 +100,48 @@ div[id^="fadetest"]{
     border-radius: 0 0 10px 10px;
     display: none;
 }
+
+.css-test{
+    width: 400px;
+    height: auto;
+    padding: 5px 0px;
+    margin: 5px 20px;
+    color: white;
+    background-color: hotpink;
+}
+
+.css-test>p{
+    margin: 5px 10px 0 15px;
+}
+
+.css-test2{
+    width: 400px;
+    height: auto;
+    padding: 5px 0px;
+    margin: 5px 20px;
+    color: white;
+    background-color: violet;
+}
+
+.css-test2>p{
+    margin: 5px 10px 0 15px;
+}
+
+#div-box{
+    width: 400px;
+    height: auto;
+    margin: 5px 20px;
+    padding: 5px;
+    color: black;
+    border: 2px solid deepskyblue;
+    background-color: paleturquoise;
+}
+
+#div-box>p{
+    margin: 5px 10px 0 15px;
+}
+
+#div-box span{
+    color: coral;
+    font-size: 14px;
+}

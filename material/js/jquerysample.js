@@ -99,6 +99,32 @@ $(document).ready(function(){
     });
 
     $("#callbackbutton").on("click", callbackTest);
+
+    $("#btn-textest").click(function(){
+        $("#textresult").text($("#textest").text());
+    });
+
+    $("#btn-htmltest").click(function(){
+        $("#textresult").text($("#textest").html());
+    });
+
+    $("#btn-inputget").click(function(){
+        $("#textresult").text($("#textinput").val());
+    });
+
+    $("#btn-textattrtest").click(function(){
+        $("#textresult").text($("#textattr").attr("href"));
+    });
+
+    settingFunc();
+
+    appendFunc();
+
+    removeFunc();
+
+    cssFunc();
+
+    boxFunc();
 });
 
 function bindTest(){
@@ -164,6 +190,93 @@ function fadetoTest(){
 
 function callbackTest(){
     $("#callbacktest").slideUp(1000).slideDown(1000);
+}
+
+function settingFunc(){
+    $("#btn-setting-html").click(function(){
+        $("#settingtest").html("<a href='#'>.html: 设置HTML内容</a>");
+    });
+    $("#btn-setting-input").click(function(){
+        $("#ip-setting").val(".val(): 修改input元素内容");
+    });
+    $("#btn-setting-attr").click(function(){
+        $("#a-setting").attr({
+            "href": "http://www.github.com"
+        });
+    });
+}
+
+function appendFunc(){
+    $("#btn-append").click(function(){
+        $("#appendtest").append(" .append(): 在被选中元素标签内的结尾插入内容 ");
+    });
+    $("#btn-prepend").click(function(){
+        $("#appendtest").prepend(" .prepend(): 在被选中元素内的之前插入内容 ");
+    });
+    $("#btn-before").click(function(){
+        $("#appendtest").before("<p>.before(): 在被选中元素标签外的之前插入内容, 有换行</p>");
+    });
+    $("#btn-after").click(function(){
+        $("#appendtest").after("<p>.prepend(): 在被选中元素标签外的之后插入内容, 有换行</p>");
+    });
+
+    $("#btn-multiappend").on("click", appendText);
+
+    function appendText(){
+        var text1 = "<p>直接写html: html方法</p>";
+        var text2 = $("<p></p>").text(".text(): jQuery方法 ");
+        var text3 = document.createElement("p");
+        text3.innerHTML=".createElement(): DOM 方法";
+        $("#appendtest").after(text1, text2, text3);
+    }
+}
+
+function removeFunc(){
+    $("#btn-remove").click(function(){
+        $("#div-remove").remove();
+    });
+    $("#btn-empty").click(function(){
+        $("#div-remove").empty();
+    })
+}
+
+function cssFunc(){
+    $("#div-css").css({
+        width: "400px",
+        height: "auto",
+        margin: "10px 20px 5px 20px",
+        padding: "10px"
+    });
+    $("#div-css").css("background-color", "pink");
+
+    $("#btn-addclass").click(function(){
+        $("#div-addclass").addClass("css-test");
+    });
+
+    $("#btn-removeclass").click(function(){
+        $("#div-addclass").removeClass("css-test");
+    });
+
+    $("#btn-removeclass").click(function(){
+        $("#div-addclass").removeClass("css-test");
+    });
+
+    $("#btn-toggleclass").click(function(){
+        $("#div-addclass").toggleClass("css-test2");
+    });
+}
+
+function boxFunc(){
+    $("#div-box").click(function(){
+        $("#span-box-height").text($("#div-box").height());
+        $("#span-box-width").text($("#div-box").width());
+        $("#span-box-innerheight").text($("#div-box").innerHeight());
+        $("#span-box-innerwidth").text($("#div-box").innerWidth());
+        $("#span-box-outerheight").text($("#div-box").outerHeight());
+        $("#span-box-outerwidth").text($("#div-box").outerWidth());
+        $("#span-box-outerheightrue").text($("#div-box").outerHeight(true));
+        $("#span-box-outerwidthtrue").text($("#div-box").outerWidth(true));
+    });
 }
 
 function conlog(x){
