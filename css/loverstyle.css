@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    font-family: cursive, »ªÎÄÏ¸ºÚ, "Microsoft YaHei", Î¢ÈíÑÅºÚ, "Microsoft JhengHei", STHeiti, MingLiu;
+    font-family: cursive, ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½, "Microsoft YaHei", Î¢ï¿½ï¿½ï¿½Åºï¿½, "Microsoft JhengHei", STHeiti, MingLiu;
     margin: 0;
     background: #886E52 url("../image/bg-lover.jpg") no-repeat fixed center center;
     background-size: cover;
@@ -46,8 +51,8 @@ body{
 }
 
 p{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 3px 20px 3px 20px;
+
 }
 
 .time{
