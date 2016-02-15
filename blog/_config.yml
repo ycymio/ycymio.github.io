@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: Yvette's blog
+subtitle: 天气好得就好像走着走着就能碰见你
+description: Description
+author: Yang Chengyu
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://www.yvette.space/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
