@@ -125,6 +125,14 @@ $(document).ready(function(){
     cssFunc();
 
     boxFunc();
+
+    traversaldownFunc();
+
+    traversalupFunc();
+
+    traversalsibingsFunc();
+
+    filterFunc();
 });
 
 function bindTest(){
@@ -276,6 +284,72 @@ function boxFunc(){
         $("#span-box-outerwidth").text($("#div-box").outerWidth());
         $("#span-box-outerheightrue").text($("#div-box").outerHeight(true));
         $("#span-box-outerwidthtrue").text($("#div-box").outerWidth(true));
+    });
+}
+
+function traversaldownFunc(){
+    $("#btn-children").click(function(){
+        $("#div-traversaldown1").children().css({border: "3px solid black"});
+        //conlog($("#div-traversaldown1").children());
+    });
+    $("#btn-find").click(function(){
+        $("#div-traversaldown1").find("#div-traversaldown2").css({border: "3px solid blue"});
+        //conlog($("#div-traversaldown1").children());
+    });
+}
+
+function traversalupFunc(){
+    $("#btn-parent").click(function(){
+        $("#sp-parent").parent().css({"background-color": "pink"});
+    });
+    $("#btn-parents").click(function(){
+        $("#sp-parents").parents().css({"background-color": "white"});
+    });
+    $("#btn-parentsuntil").click(function(){
+        //conlog($("#sp-parentsuntil").parentsUntil());
+        $("#sp-parentsuntil").parentsUntil("#div-traversalup1").css({"background-color": "paleturquoise"});
+    })
+}
+
+function traversalsibingsFunc(){
+    $("#p-sibings").click(function(){
+        $("#p-sibings").siblings().css({color: "purple"});
+    });
+    $("#p-next").click(function(){
+        $("#p-next").next().css({color: "red"});
+    });
+    $("#p-nextAll").click(function(){
+        $("#p-nextAll").nextAll().css({color: "orange"});
+    });
+    $("#p-nextUntil").click(function(){
+        $("#p-nextUntil").nextUntil("#p-prevUntil").css({color: "yellow"});
+    });
+    $("#p-prev").click(function(){
+        $("#p-prev").prev().css({color: "green"});
+    });
+    $("#p-prevAll").click(function(){
+        $("#p-prevAll").prevAll().css({color: "cyan"});
+    });
+    $("#p-prevUntil").click(function(){
+        $("#p-prevUntil").prevUntil().css({color: "blue"});
+    });
+}
+
+function filterFunc(){
+    $("#p-first").click(function(){
+        $("#filtertest div p").first().css({color: "red"});
+    });
+    $("#p-last").click(function(){
+        $("#filtertest div p").last().css({color: "orange"});
+    });
+    $("#p-eq").click(function(){
+        $("#filtertest div p").eq(3).css({color: "yellow"});
+    });
+    $("#p-filter").click(function(){
+        $("#filtertest div p").filter("#filtertest div .cfilter").css({color: "green"});
+    });
+    $("#p-not").click(function(){
+        $("#filtertest div p").not("#filtertest div .cfilter").css({color: "cyan"});
     });
 }
 

@@ -169,6 +169,60 @@
                 <p>.outerWidth(true): 标签宽度(包括至margin)<span id="span-box-outerwidthtrue"> </span> </p>
             </div>
         </div>
+        <div class="partial">
+            <p class="topic">jQuery 向下遍历</p>
+            <div id="div-traversaldown1"> div-traversaldown1
+                <div id="div-traversaldown2"> div-traversaldown2
+                    <p>.children(): 获取标签的儿子结点, 存储形式是数组. 可有参数. </p>
+                    <button id="btn-children">.children()测试</button>
+                    <p>.find(): 获取标签的子孙结点, 存储形式是数组. 必有参数.</p>
+                    <button id="btn-find">.find()测试</button>
+                </div>
+            </div>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery 向上遍历</p>
+            <div id="div-traversalup1">div-traversalup1
+                <div id="div-traversalup2">div-traversalup2
+                    <p>.parent(): 获取父亲结点.<span id="sp-parent" style="color:#aaaaaa;">span标签</span> </p>
+                    <button id="btn-parent">.parent()测试</button>
+                    <p>.parents(): 获取所有祖先结点, 数组存储. 修改是批量操作, 有参数时选择指定的标签. <span id="sp-parents" style="color:#aaaaaa;">span标签</span></p>
+                    <button id="btn-parents">.parents()测试</button>
+                    <p>.parentUntil(): 参数为空时与 .parents() 一样效果, 有参数时指的是从自身向上到参数为止的操作.<span id="sp-parentsuntil" style="color:#aaaaaa;">span标签</span></p>
+                    <button id="btn-parentsuntil">.parentsuntil()测试</button>
+                </div>
+            </div>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery 同级遍历</p>
+            <div>
+                <p id="p-sibings">.sibings(): 选取同级的其他元素</p>
+                <p id="p-next">.next(): 选取自己的下一个元素</p>
+                <p id="p-nextAll">.nextAll(): 选取自己以后的所有元素</p>
+                <p id="p-nextUntil">.nextUntil(): 选取自己以后到参数(为空则与.nextAll()一样)之前的元素</p>
+                <p id="p-prev">.prev(): 选取自己的上一个元素</p>
+                <p id="p-prevAll">.prevAll(): 选取自己之前的所有元素</p>
+                <p id="p-prevUntil">.prevUntil(): 选取自己以后到参数(为空则与.prevAll()一样)之前的元素</p>
+            </div>
+        </div>
+        <div class="partial" id="filtertest">
+            <p class="topic">jQuery 过滤</p>
+            <div>
+                <p id="p-first" class="cfilter">.first(): 寻找同样元素中的第一个</p>
+            </div>
+            <div>
+                <p id="p-last" class="cfilter">.last(): 寻找同样元素中的最后一个</p>
+            </div>
+            <div>
+                <p id="p-eq" class="cfilter">.eq(): 寻找同样元素中的第n-1个(n为参数)</p>
+            </div>
+            <div>
+                <p id="p-filter" class="cfilter">.filter(): 寻找同样元素中的符合参数标准的元素</p>
+            </div>
+            <div>
+                <p id="p-not">.not(): 寻找同样元素中的不符合参数标准的元素</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

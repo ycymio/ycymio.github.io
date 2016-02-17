@@ -145,3 +145,43 @@ div[id^="fadetest"]{
     color: coral;
     font-size: 14px;
 }
+
+#div-traversaldown1{
+    width: 350px;
+    height: auto;
+    margin: 0px auto;
+    border: 3px solid chocolate;
+}
+
+#div-traversaldown2{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid chocolate;
+}
+
+#div-traversaldown2>p{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 280px;
+}
+
+#div-traversalup1{
+    width: 350px;
+    height: auto;
+    margin: 0px auto;
+    border: 3px solid chocolate;
+}
+
+#div-traversalup2{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid chocolate;
+}
+
+#div-traversalup2>p{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 280px;
+}
