@@ -133,6 +133,8 @@ $(document).ready(function(){
     traversalsibingsFunc();
 
     filterFunc();
+
+    ajaxFunc();
 });
 
 function bindTest(){
@@ -350,6 +352,28 @@ function filterFunc(){
     });
     $("#p-not").click(function(){
         $("#filtertest div p").not("#filtertest div .cfilter").css({color: "cyan"});
+    });
+}
+
+function ajaxFunc(){
+    $("#btn-ajax-send").on("click", function(){
+        $("#sp-ajax-result").text("请求数据中, 请稍后...");
+        $.post("Server.php", {name:$("#input-ajax-name").val()}, function(data){
+            $("#sp-ajax-result").text(data);
+        }).error(function(){
+            $("#sp-ajax-result").text("通讯错误");
+        });
+    });
+    $("#btn-ajax-load").click(function(){
+        $("#div-load").text("正在加载...");
+        $("#div-load").load("box.htm", function(a,status,c){
+            conlog(status);
+            if(status=="error"){
+                $("#p-load").text("片段加载失败");
+            }else{
+                $("#p-load").text("片段加载成功");
+            }
+        });
     });
 }
 
