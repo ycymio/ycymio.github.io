@@ -5,6 +5,7 @@
     <title>jQuery一些示例</title>
     <link href="css/jquerysample.css" rel="stylesheet"/>
     <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/extendJS.js"></script>
     <script src="js/jquerysample.js"></script>
     <!--注意引用顺序和依赖关系-->
 </head>
@@ -239,6 +240,27 @@
             <p id="p-load"></p>
             <p>.load(): 加载片段</p>
             <p>.getScript(): 加载JS文件</p>
+        </div>
+        <div class="partial">
+            <p class="topic">jQuery的扩展</p>
+            <p>1. $.function_name = function(){...}</p>
+            <p id="extend-jq"> ^ 调用直接 $.function_name()</p>
+            <p>2. $.fn.function_name = function(){...}</p>
+            <p id="extend-common-jq"> ^ 调用通过 如: $("#extend_common_myjq").extendjq();</p>
+        </div>
+        <div class="partial">
+            <!--<button id="btn-conflict-test">开始测试</button>-->
+            <p class="topic">jQuery扩展-noConflict</p>
+            <p>代替美元符号$, JS框架很多, 可能也有其他的用$来写, 这样就与jQuery冲突了.</p>
+            <p>$.noConflict(); -> 之后用jQuery代替美元符号</p>
+            <p>var conflictjq = $.noConflict(); -> 之后用conflictjq代替美元符号</p>
+            <!--<p id="p-conflict"></p>-->
+            <!--<button id="btn-conflict">conflict</button>-->
+            <!--<button id="btn-noconflict">noconflict</button>-->
+            <p> - - - - - - - </p>
+            <div id="log">
+                <p>Before $.noConflict(true)</p>
+            </div>
         </div>
     </div>
 </body>
