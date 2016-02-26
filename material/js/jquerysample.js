@@ -135,6 +135,10 @@ $(document).ready(function(){
     filterFunc();
 
     ajaxFunc();
+
+    extendFunc();
+
+    noConflictFunc();
 });
 
 function bindTest(){
@@ -375,6 +379,41 @@ function ajaxFunc(){
             }
         });
     });
+}
+
+function extendFunc(){
+    $("#extend-jq").click(function(){
+        $.extendjq();
+    });
+    $("#extend-common-jq").click(function(){
+        $("#extend-common-jq").extendjq();
+    });
+}
+
+function noConflictFunc(){
+    //$("#btn-conflict-test").on("click", function(){
+    //    //conflictjq("#p-conflict").text("Hello");
+    //    //$("#p-conflict").text("Hello");
+    //    var conflictjq = $.noConflict();
+    //    conflictjq("#btn-noconflict").on("click", function(){
+    //        conflictjq("#p-conflict").text("New Hello");
+    //    });
+    //    $("#btn-conflict").on("click", function(){
+    //        $("#p-conflict").text("New Hello");
+    //    });
+    //});
+    var $log = $( "#log" );
+
+    $log.append( "<p>2nd loaded jQuery version ($): " + $.fn.jquery + "</p>" );
+
+// Restore globally scoped jQuery variables to the first version loaded
+// (the newer version)
+
+    jq162 = jQuery.noConflict( true );
+
+    $log.append( "<p>After $.noConflict(true)</p>" );
+    $log.append( "<p>2nd loaded jQuery version (jq162): " + jq162.fn.jquery + "</p>" );
+    $log.append( "<p>1st loaded jQuery version ($): " + $.fn.jquery + "</p>" );
 }
 
 function conlog(x){
