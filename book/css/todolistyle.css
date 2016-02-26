@@ -29,6 +29,14 @@ ul{
     font-family: "翩翩体", fButterfly, KaiTi;
 }
 
+[id ^= "already"]{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "翩翩体", fButterfly, KaiTi;
+    text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+    margin-left: 8%;
+}
+
 .tododiv{
     border: 5px solid #c799e6;
     margin: 32px 10%;
