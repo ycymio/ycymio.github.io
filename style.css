@@ -12,6 +12,12 @@ h1, p, a, button{
     font-family: cursive,"STXinwei", KaiTi;
 }
 
+body{
+    background-color: #000000;
+    background-image: url("image/main.jpg");
+    background-size: cover;
+}
+
 .navbar-brand{
     padding: 0 16px 0 0;
 }
@@ -24,7 +30,7 @@ h1, p, a, button{
     font-weight: bolder;
 }
 
-/*navbar -- Í¯»°·ç¸ñ*/
+/*navbar -- Í¯ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .navbar-inverse .navbar-nav>li>a{
     color: #FFC0E0;
     padding-right: 30px;
@@ -47,29 +53,13 @@ h1, p, a, button{
     /*color: #ffffff;*/
     color: #E7C9E7;
     background-color: #080808;
-    /*µ¼º½À¸ÏÂÀ­¿ò×ÖÌåÑÕÉ«*/
+    /*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«*/
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
     color:#A349A4;
     background-color:#ffffff;
-}
-
-.firstpage{
-    height: 750px;
-}
-
-.first-bg{
-    height: 800px;
-    width: 100%;
-    position: absolute;
-    background-position: center center;
-    background-size: cover;
-}
-
-#firstbg{
-    background-image: url("image/main.jpg");
 }
 
 .title-text{
@@ -90,6 +80,7 @@ h1, p, a, button{
     color: #ffffff;
     font-size: 14pt;
     margin-left: 80px;
+
 }
 
 .button{
@@ -137,7 +128,7 @@ h1, p, a, button{
 
 /*
   top:
-    ¸ß¶È²»±ä£¬¿í¶È´Ó0µ½ºÐ×Ó¿í¶È£¬Î»ÖÃ´Ó×óµ½ÓÒ
+    ï¿½ß¶È²ï¿½ï¿½ä£¬ï¿½ï¿½È´ï¿½0ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½È£ï¿½Î»ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½
 */
 .button .line-top{
     height: 2px;
