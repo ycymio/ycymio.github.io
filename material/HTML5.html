@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5</title>
+    <link href="css/html5.css" rel="stylesheet"/>
+    <script src="js/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="description">
+            <p class="topic">音频播放</p>
+            <p>1. Audio(音频): HTML5提供了播放音频文件的标准</p>
+            <p>2. control(控制器): control属性供添加播放、暂停和音量控件</p>
+            <p>3. 标签: &lt;audio&gt;:定义声音  &lt;source&gt;: 规定多媒体资源,可以是多个(由于浏览器支持的格式不同)</p>
+        </div>
+        <div class="test">
+            <p><audio src="raw/M01.mp3" controls="controls">您的浏览器不支持</audio></p>
+            <p><audio src="raw/M01.mp3" id="audio-btn">您的浏览器不支持</audio></p>
+            <button onclick="clickA()">播放/暂停<br/>(仅有一个按钮的播放器...)</button>
+            <script>
+                var a = document.getElementById("audio-btn");
+                function clickA(){
+                    if(a.paused){
+                        a.play();
+                    }else{
+                        a.pause();
+                    }
+                }
+            </script>
+        </div>
+        <div class="description">
+            <p class="topic">编解码工具——处理视频播放格式问题</p>
+            <p>FFmpeg: www.ffmpeg.org 开源软件</p>
+            <p>(在mp4路径下): [ffmpeg路径/ffmpeg] -i [mp4文件名].mp4 -acodec libvorbis [ogg文件名].ogg</p>
+        </div>
+        <div class="description">
+            <p class="topic">视频播放</p>
+            <p>1. Video(视频): HTML5提供了展示视频的标准</p>
+            <p>2. control(控制器): 提供添加播放、暂停和音量控件</p>
+            <p>3. 标签: &lt;video&gt;: 定义声音  &lt;source&gt;: 规定多媒体资源,可以是多个</p>
+            <p>4. 属性: width: 宽; height: 高</p>
+        </div>
+        <div class="test">
+            <p> <video id="video-btn" width="270px" height="180px">
+                <!--<source src="raw/everytime.mkv">-->
+                <source src="raw/everytime.ogg">
+                您的浏览器不支持mkv/ogg格式
+                </video><br/>
+                <button onclick="clickV()">播放/暂停</button>
+                <button onclick="clickMax()">放大</button>
+                <button onclick="clickMin()">缩小</button>
+            </p>
+            <script>
+                var v = document.getElementById("video-btn");
+                function clickV(){
+                    if(v.paused){
+                        v.play();
+                    }else{
+                        v.pause();
+                    }
+                }
+                function clickMax(){
+                    v.width = 500;
+                }
+                function clickMin(){
+                    v.width = 200;
+                }
+            </script>
+        </div>
+        <div class="description">
+            <p class="topic">HTML5拖放</p>
+            <p>1. HTML5拖放: 拖放(drag和drop)是HTML5标准的组成部分</p>
+            <p>2. 拖放开始: ondragstart: 调用了一个函数, drag(event): 规定了被拖动的数据</p>
+            <p>3. 设置拖动数据: setData(): 设置被拖数据的数据类型和值</p>
+            <p>4. 放入位置: ondragover: 事件规定在何处放置被拖动的数据</p>
+            <p>5. 放置: ondrop: 当防止被拖数据时, 会发生drop事件.</p>
+        </div>
+        <div class="test">
+            <div id="div-drag"></div>
+            <div id="div-drag2"></div>
+            <img src="img/pic.jpg" width="100px" id="img-drag">
+            <div id="div-drag-msg"></div>
+            <script>
+                var box1div = document.getElementById("div-drag");
+                var box2div = document.getElementById("div-drag2");
+                var msgdiv = document.getElementById("div-drag-msg");
+                var imgdrag = document.getElementById("img-drag");
+//                box1div.ondragenter = function(e){
+//                    showObj(e);
+//                }
+
+                box1div.ondragover = function(e){
+                    e.preventDefault();
+                }
+                box2div.ondragover = function(e){
+                    e.preventDefault();
+                }
+                imgdrag.ondragstart = function(e){
+                    e.dataTransfer.setData("imgId", "img-drag");
+                }
+
+                box1div.ondrop = dropImgHandle;
+                box2div.ondrop = dropImgHandle;
+
+                function dropImgHandle(e){
+//                    showObj(e.dataTransfer);
+                    e.preventDefault();
+
+                    var img = document.getElementById(e.dataTransfer.getData("imgId"));
+                    e.target.appendChild(img);
+                }
+//                function showObj(obj){
+//                    var s = "";
+//                    for( var k in obj){
+//                        s += k + ":" + obj[k]+"<br/>"
+//                    }
+//                    msgdiv.innerHTML = s;
+//                }
+            </script>
+        </div>
+
+        <div class="test">
+            <div id="div-imgContainer"></div>
+
+            <script>
+                var imgContainer = document.getElementById("div-imgContainer");
+                imgContainer.ondragover = function(e){
+                    e.preventDefault();
+                }
+
+                imgContainer.ondrop = function(e){
+                    e.preventDefault();
+                    var f = e.dataTransfer.files[0];
+                    var fileReader = new FileReader();
+                    fileReader.onload = function(e){
+//                        console.log(e.target);
+                        console.log(fileReader.result);
+                        imgContainer.innerHTML = "<img src=\"" + fileReader.result + "\">";
+                    }
+                    fileReader.readAsDataURL(f);
+//                    console.log(e);
+                }
+
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>
