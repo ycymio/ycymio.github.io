@@ -9,13 +9,14 @@
 }
 
 h1, p, a, button{
-    font-family: cursive,"STXinwei", KaiTi;
+    font-family: cursive,KaiTi, "STXinwei";
 }
 
 body{
-    background-color: #000000;
-    background-image: url("image/main.jpg");
-    background-size: cover;
+    background-color: #2F2F2F;
+    background-image: url("image/texture/blackmamba.png");
+    background-attachment: fixed;
+    color: #EE6A50;
 }
 
 .navbar-brand{
@@ -30,36 +31,35 @@ body{
     font-weight: bolder;
 }
 
-/*navbar -- ͯ�����*/
 .navbar-inverse .navbar-nav>li>a{
-    color: #FFC0E0;
+    color: #EE6A50;
     padding-right: 30px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover{
-    color: #ff80c0;
+    color: #ff8c69;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover{
-    color: #FFE0F0;
+    color: #EE6A50;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu{
-    background-color: #080808;
+    background-color: #2F2F2F;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
     /*color: #ffffff;*/
-    color: #E7C9E7;
-    background-color: #080808;
+    color: #ff8c69;
+    background-color: #2F2F2F;
     /*������������������ɫ*/
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
-    color:#A349A4;
-    background-color:#ffffff;
+    color:#ff8c69;
+    background-color:#2F2F2F;
 }
 
 .title-text{
@@ -76,11 +76,45 @@ body{
     line-height: 75px;
 }
 
+.h1-up{
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 50px;
+    font-size: 50px;
+    word-wrap: break-word;
+    letter-spacing: 20px;
+    border-right: 2px solid #EE6A50;
+    padding-right: 80px;
+}
+
+.p-up{
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 32px;
+    font-size: 32px;
+    float:left;
+}
+
+/*.div-line-up{*/
+    /*border: 2px solid #EE6A50;*/
+    /*margin-top: 150px;*/
+    /*width: 20px;*/
+    /*height: 320px;*/
+/*}*/
+/*.line-up{*/
+    /*border: 2px solid #EE6A50;*/
+    /*margin-top: 150px;*/
+    /*width: 20px;*/
+    /*height: 320px;*/
+    /*!*display: block;*!*/
+    /*!*border-left: 2px solid #EE6A50;*!*/
+/*}*/
+
 .pcommon{
     color: #ffffff;
     font-size: 14pt;
     margin-left: 80px;
-
 }
 
 .button{
