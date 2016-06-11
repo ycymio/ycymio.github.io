@@ -2,7 +2,7 @@ body {
     margin: 0;
     background: #272B2B url("../image/bg-travel.jpg") no-repeat fixed center center;
     background-size: cover;
-    font-family: »ªÎÄÏ¸ºÚ, "Microsoft YaHei", Î¢ÈíÑÅºÚ, "Microsoft JhengHei", STHeiti, MingLiu;
+    font-family: ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½, "Microsoft YaHei", Î¢ï¿½ï¿½ï¿½Åºï¿½, "Microsoft JhengHei", STHeiti, MingLiu;
 }
 
 .travel{
@@ -13,10 +13,23 @@ body {
     color: #ffffff;
 }
 
+.travel .maintitle{
+    margin: 0px;
+}
+
 .travel .subtitle{
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     font-size: 16px;
-    text-indent: 100px;
+    padding-left: 100px;
+}
+
+#map{
+    float: right;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    font-family: "ç¿©ç¿©ä½“", fButterfly, KaiTi;
 }
 
 .container{

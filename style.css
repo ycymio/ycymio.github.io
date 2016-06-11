@@ -16,7 +16,7 @@ body{
     background-color: #2F2F2F;
     background-image: url("image/texture/blackmamba.png");
     background-attachment: fixed;
-    color: #EE6A50;
+    color: #ff8c69;
 }
 
 .navbar-brand{
@@ -32,7 +32,7 @@ body{
 }
 
 .navbar-inverse .navbar-nav>li>a{
-    color: #EE6A50;
+    color: #ff8c69;
     padding-right: 30px;
 }
 
@@ -51,7 +51,7 @@ body{
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
     /*color: #ffffff;*/
-    color: #ff8c69;
+    color: oldlace;
     background-color: #2F2F2F;
     /*������������������ɫ*/
 }
@@ -83,7 +83,7 @@ body{
     font-size: 50px;
     word-wrap: break-word;
     letter-spacing: 20px;
-    border-right: 2px solid #EE6A50;
+    border-right: 2px solid oldlace;
     padding-right: 80px;
 }
 
@@ -92,7 +92,7 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     width: 32px;
-    font-size: 32px;
+    font-size: 26px;
     float:left;
 }
 

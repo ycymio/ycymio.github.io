@@ -6,15 +6,38 @@
     <link href="css/travelstyle.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" />
 </head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=dB5nr1gz4oGaIuZMAFdC3IFrLLrdoKqd"></script>
+
+</head>
+
+
 <body>
     <div class="travel">
-        旅行日记
-        <br>
+        <div class="maintitle">旅行日记</div>
         <div class="subtitle">
             ——人要慢慢走，灵魂才会跟得上。
         </div>
+
+        <div id="map"></div>
     </div>
     <div class = "container">
+        <div class="title">
+            湄潭求是寻根之旅
+        </div>
+        <div class="content">
+            <p> 四天的旅程, 除去第一天路上的行程以外, 玩了三天, 和研究生艺术团的同学们一起, 其实都不是很熟, 但他们都很友善:)。</p>
+            <p> 湄潭是贵州遵义市的一个小镇, 浙大竺可桢老校长在文军长征西迁最后到达的地方, 这是我目前为止去过的最西边的地方了, 也是第一次这么多同学一起乘飞机旅行, 第一次转机, 第一次泡温泉, 第一次旅行中一个人睡……</p>
+            <p> 对浙大的感情并不浓厚, 之前浙大来高中宣传当时的不屑一顾历历在目, 研究生在浙读书也只不到一年, 算是"理性地欣赏这所学校"这样的感情。但听讲解员讲解竺老校长西迁故事的时候, 还是哭了, 不为学校, 只为这里淳朴的人民, 有何德何能让他们宁可自己饿死, 也要给浙大人食粮? 不理解, 却因为这样的不理解而觉得当地人民伟大。</p>
+            <p> 至于演出, 漂亮的舞团, 好听的弹奏, 准备不多, 我们和当地的人民。不知道这是怎样的一个利益链, 官场上的大部分东西都不能用情感牌来理解, 也懒得深入理解。</p>
+            <p> 还有一起去的同学, 一种轮回, 好像之后遇见的人, 在前二十多年里都能找到相似的人。抛去这个不谈, 很喜欢他们, 真的真的, 他们会很照顾别人, 这样的感觉很喜欢。</p>
+            <p> 吃了很多当地的特色小吃, 牛打滚、冰粉、各种辣到不行的菜, 那儿的辣是只在嘴里的辣, 很喜欢。</p>
+            <p> 我不知道会忘记多少旅行里的记忆, 好像总在忘记, 而再一次的经历就总会觉得新鲜无比, 但大自然的美, 人类心底的美, 只有亲身经历, 才能被震撼, 这不是一种情怀, 这只是一种经历。</p>
+            <p class="time">2016年6月10日</p>
+        </div>
         <div class="title">
             文博会一游
         </div>
@@ -40,3 +63,12 @@
     </div>
 </body>
 </html>
+
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("map",{minZoom:4,maxZoom:18});    // 创建Map实例
+    map.centerAndZoom(new BMap.Point(120, 30), 7);  // 初始化地图,设置中心点坐标和地图级别
+//    map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+    map.setCurrentCity("杭州");          // 设置地图显示的城市 此项是必须设置的
+//    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+</script>
