@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: #92A8D1;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    /*clientHeight: 80%;*/
+    /*clientWidth: 80%;*/
+    width: 80%;
+    height: 80%;
+    margin: 5% 10%;
+    overflow:hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid rgba(255,255,255,0.2);
+    /*background: #F7CAC9; #92A8D1,#89ABE3 242 221 222*/
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}

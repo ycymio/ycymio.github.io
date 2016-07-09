@@ -4,13 +4,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
-    <style type="text/css">
-        body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
-    </style>
+
+    <link href="css/travelmapstyle.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" />
 
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=dB5nr1gz4oGaIuZMAFdC3IFrLLrdoKqd"></script>
-    <title>地图展示</title></head>
+    <title>旅行地图</title></head>
 <body>
+    <div id="title">旅行地图</div>
     <div id="allmap"></div>
 </body>
 </html>
@@ -25,29 +26,70 @@
 
 
 
+
     var myGeo = new BMap.Geocoder();
     // 将地址解析结果显示在地图上,并调整地图视野
     myGeo.getPoint("湄潭县", function(point){
         if (point) {
 //            map.centerAndZoom(point, 28);
             var myIcon = new BMap.Icon("./image/flag.png", new BMap.Size(80,67));
-            var marker2 = new BMap.Marker(point,{icon:myIcon});  // 创建标注
-            map.addOverlay(marker2);              // 将标注添加到地图中
+            var marker = new BMap.Marker(point,{icon:myIcon});  // 创建标注
+            map.addOverlay(marker);              // 将标注添加到地图中
+
+
+            var sContent =
+                    "<h4>湄潭</h4>" +
+                    "<img style='float:right;margin:4px' id='imgDemo' src='./image/meitan.jpg' width='192' height='120' title='湄潭'/>" +
+                    "<p>出游时间: 6/13~6/16 in 2016</p>" +
+                    "<p>研究生艺术团演出, 包括遵义会议参观。</p>" +
+                    "</div>"
+            var opts = {
+                width : 400,     // 信息窗口宽度
+                height: 150,     // 信息窗口高度
+            }
+            var infoWindow = new BMap.InfoWindow(sContent, opts);  // 创建信息窗口对象
+            marker.addEventListener("click", function(){
+                this.openInfoWindow(infoWindow);
+                //图片加载完毕重绘infowindow
+                document.getElementById('imgDemo').onload = function (){
+                    infoWindow.redraw();   //防止在网速较慢，图片未加载时，生成的信息框高度比图片的总高度小，导致图片部分被隐藏
+                }
+            });
         }else{
             alert("您选择地址没有解析到结果!");
         }
     }, "湄潭县");
 
 
+
     myGeo.getPoint("黄山风景区", function(point){
         if (point) {
 //            map.centerAndZoom(point, 28);
             var myIcon = new BMap.Icon("./image/flag.png", new BMap.Size(80,67));
-            var marker2 = new BMap.Marker(point,{icon:myIcon});  // 创建标注
-            map.addOverlay(marker2);              // 将标注添加到地图中
+            var marker = new BMap.Marker(point,{icon:myIcon});  // 创建标注
+            map.addOverlay(marker);              // 将标注添加到地图中
+            var sContent =
+                    "<h4>黄山风景区</h4>" +
+                    "<img style='float:right;margin:4px' id='imgDemo' src='./image/huangshan.jpg' width='192' height='120' title='黄山'/>" +
+                    "<p>出游时间: 4/29 ~ 5/1 in 2016</p>" +
+                    "<p>爬黄山, 游西递、宏村。</p>" +
+                    "</div>"
+            var opts = {
+                width : 400,     // 信息窗口宽度
+                height: 150,     // 信息窗口高度
+            }
+            var infoWindow = new BMap.InfoWindow(sContent, opts);  // 创建信息窗口对象
+            marker.addEventListener("click", function(){
+                this.openInfoWindow(infoWindow);
+                //图片加载完毕重绘infowindow
+                document.getElementById('imgDemo').onload = function (){
+                    infoWindow.redraw();   //防止在网速较慢，图片未加载时，生成的信息框高度比图片的总高度小，导致图片部分被隐藏
+                }
+            });
         }else{
             alert("您选择地址没有解析到结果!");
         }
     }, "黄山市");
+
 
 </script>
