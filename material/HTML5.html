@@ -144,6 +144,32 @@
 
             </script>
         </div>
+
+        <div class="description">
+            <p class="topic">HTML5 Canvas</p>
+            <p> 1. Canvas标签: HTML5&lt;canvas&gt;元素用于图形的绘制, 通过脚本(通常是JavaScript)来完成; &lt;canvas&gt;标签只是图形容器
+                必须使用脚本来绘制图形. 可以通过多种方法使用Canva绘制路径、盒、圆、字符以及添加图像
+            </p>
+            <p> 2. 标签: &lt;canvas&gt; </p>
+        </div>
+
+        <div class="test">
+            <div id="div-canvas"></div>
+            <script>
+                var CANVAS_WIDTH = 200, CANVAS_HEIGHT=200;
+                var myCanvas, context;
+                createCanvas();
+                function createCanvas(){
+                    document.getElementById("div-canvas").innerHTML = "<canvas id =\"mycanvas\" width=\"" + CANVAS_WIDTH + "\" height=\""+ CANVAS_HEIGHT + "\"> </canvas>";
+                    mycanvas = document.getElementById("mycanvas");
+                    context = mycanvas.get
+                }
+
+
+
+            </script>
+            <!--<canvas class="canvas" width="200px" height="200px" style="background-color: grey"></canvas>-->
+        </div>
     </div>
 
 </body>

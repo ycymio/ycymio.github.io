@@ -14,11 +14,26 @@ body{
     margin: 20px 10%;
 }
 
+#comment{
+    border: 3px solid #fff2da;
+    border-radius: 15px;
+    margin: 20px 10%;
+    padding-bottom: 20px;
+    background-color: #144c8d;
+}
+
 .step{
     /*position: absolute;*/
     /*float: none;*/
     /*width: 100%;*/
 }
+
+.comment-topic{
+    font-size: 20px;
+    margin: 20px 20px 0 20px;
+    color: #88a5cd;
+}
+
 .topic{
     font-size: 20px;
     margin: 20px 20px;
@@ -43,6 +58,21 @@ body{
 .consider {
     margin: 10px auto;
     color: #d0494f;
+}
+
+.comment-good {
+    margin: 10px auto;
+    color: #b7c9e6;
+}
+
+.comment-common{
+    margin: 10px auto;
+    color: #7d9cde;
+}
+
+.comment-bad{
+    margin: 10px auto;
+    color: #8eafe5;
 }
 
 .picture{
