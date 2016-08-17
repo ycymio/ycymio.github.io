@@ -148,6 +148,10 @@
 	left: -20px;
 }
 
+.bk-list li .bk-left{
+	border: 2px solid #aaa;
+}
+
 .bk-list li .bk-top,
 .bk-list li .bk-bottom {
 	width: 295px;
@@ -229,18 +233,6 @@
 
 /* Main colors and content */
 
-.bk-list li .bk-page,
-.bk-list li .bk-right,
-.bk-list li .bk-top,
-.bk-list li .bk-bottom {
-	background-color: rgb(252,231,187);
-	/*background: -webkit-radial-gradient(circle, #fde498 10%, #fde498 90%, oldlace 100%);*/
-	/*background: -moz-radial-gradient(circle, #fde498 10%, #fde498 90%, oldlace 100%);*/
-	/*background: -o-radial-gradient(circle, #fde498 10%, #fde498 90%, oldlace 100%);*/
-	/*background: radial-gradient(circle, #fde498 10%, #fde498 90%, oldlace 100%);*/
-
-}
-
 .bk-list li .bk-front > div {
 	border-radius: 0 3px 3px 0;
 	box-shadow: 
@@ -290,13 +282,13 @@
 
 .bk-content {
 	position: absolute;
-	top: 30px;
+	top: 20px;
 	left: 20px;
 	bottom: 20px;
 	right: 20px;
 	padding: 30px;
-	overflow: hidden;
-	background: rgb(252,231,187);
+	overflow: visible;
+	background: oldlace;
 	opacity: 0;
 	pointer-events: none;
 	-webkit-backface-visibility: hidden;
@@ -314,9 +306,10 @@
 }
 
 .bk-content p {
-	padding: 0 0 10px;
+	padding: 0 0 2px;
 	-webkit-font-smoothing: antialiased;
 	color: #000;
+	text-indent: 26px;
 	font-size: 13px;
 	line-height: 20px;
 	text-align: justify;
@@ -326,7 +319,7 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: "Kaiti TC", Georgia, Times, "Times New Roman", serif;
 }
 
 .bk-page nav {
@@ -438,7 +431,7 @@
 .book-2 .bk-cover h2, 
 .book-2 .bk-left h2 {
 	color: #ffffff;
-	font-family: 'the_godfatherregular', Georgia, serif;
+	font-family: Georgia, serif;
 	/*font-weight: 300;*/
 }
 
@@ -509,19 +502,171 @@
 
 /* Book 3 */
 
-.book-3 .bk-front > div,
-.book-3 .bk-back,
-.book-3 .bk-left,
-.book-3 .bk-front:after {
+#book-3 .bk-front > div,
+#book-3 .bk-back,
+#book-3 .bk-left,
+#book-3 .bk-front:after {
 	background-color: #f4ebd8;
 }
 
-.book-3 .bk-cover {
+#book-3 .bk-cover {
 	background-image: url(../img/yunque.jpg);
 }
 
-.book-3 .bk-left h2 span{
+#book-3 .bk-left h2 span{
 	color: #9d9d9d;
+}
+
+/* Book 4 */
+#book-4 .bk-page,
+#book-4 .bk-right,
+#book-4 .bk-top,
+#book-4 .bk-bottom {
+	background: #fcfcfc;
+}
+
+#book-4 .bk-content {
+	background-color: #fcfcfc;
+}
+
+#book-4 .bk-front > div,
+#book-4 .bk-back,
+#book-4 .bk-left,
+#book-4 .bk-front:after {
+	background-color: #fcfcfc;
+}
+
+#book-4 .bk-cover {
+	background-image: url(../img/design.jpg);
+}
+
+#book-4 .bk-left h2 span{
+	color: #333;
+}
+
+/* Book 5 */
+#book-5 .bk-page,
+#book-5 .bk-right,
+#book-5 .bk-top,
+#book-5 .bk-bottom {
+	background: oldlace;
+}
+
+#book-5 .bk-content {
+	background-color: oldlace;
+}
+
+#book-5 .bk-front > div,
+#book-5 .bk-back,
+#book-5 .bk-left,
+#book-5 .bk-front:after {
+	background-color: #2b2a3b;
+}
+
+#book-5 .bk-cover {
+	background-image: url(../img/gucheng.jpg);
+}
+
+#book-5 .bk-left h2 span{
+	color: #ffffff;
+}
+
+/* Book 6 */
+#book-6 .bk-page,
+#book-6 .bk-right,
+#book-6 .bk-top,
+#book-6 .bk-bottom {
+	background: oldlace;
+}
+
+#book-6 .bk-content {
+	background-color: oldlace;
+}
+
+#book-6 .bk-front > div,
+#book-6 .bk-back,
+#book-6 .bk-left,
+#book-6 .bk-front:after {
+	background-color: #f5f5f5;
+}
+
+#book-6 .bk-cover {
+	background-image: url(../img/solomon.jpg);
+}
+
+#book-6 .bk-left h2 span{
+	color: #111;
+}
+
+/* Book 7 */
+#book-7 .bk-page,
+#book-7 .bk-right,
+#book-7 .bk-top,
+#book-7 .bk-bottom {
+	background: #f5f5f5;
+}
+
+#book-7 .bk-page{
+	border: 1px solid #eee;
+}
+
+#book-7 .bk-content {
+	background-color: #f5f5f5;
+}
+
+#book-7 .bk-front > div,
+#book-7 .bk-back,
+#book-7 .bk-left,
+#book-7 .bk-front:after {
+	background-color: #eee;
+}
+
+#book-7 .bk-cover {
+	background-image: url(../img/whitenight.jpg);
+}
+
+#book-7 .bk-left h2 span{
+	color: #111;
+}
+
+/* Book 8 */
+
+#book-8 .bk-page,
+#book-8 .bk-right,
+#book-8 .bk-top,
+#book-8 .bk-bottom {
+	background: #fafafa;
+}
+
+#book-8 .bk-content {
+	background-color: #fafafa;
+}
+
+#book-8 .bk-front > div,
+#book-8 .bk-back,
+#book-8 .bk-left,
+#book-8 .bk-front:after {
+	background-color: #fafafa;
+}
+
+#book-8 .bk-cover {
+	background-image: url(../img/designpattern.jpg);
+}
+
+#book-8 .bk-left h2 span{
+	color: #111;
+}
+
+.bk-list li .bk-page,
+.bk-list li .bk-right,
+.bk-list li .bk-top,
+.bk-list li .bk-bottom {
+	background-color: oldlace;
+
+}
+
+.p-special {
+	text-indent: 0 !important;
 }
 
 /* Fallbacks */
