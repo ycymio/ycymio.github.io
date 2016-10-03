@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc52f968-2c26-45ae-8acd-01e85597cdd2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book/js/h.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book/js/tj.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book/js/yxj.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/css/component.css" afterPath="$PROJECT_DIR$/book/css/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/css/default.css" afterPath="$PROJECT_DIR$/book/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/css/romanticstyle.css" afterPath="$PROJECT_DIR$/book/css/romanticstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/main.html" afterPath="$PROJECT_DIR$/book/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/romantic.html" afterPath="$PROJECT_DIR$/book/romantic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/todolist.html" afterPath="$PROJECT_DIR$/book/todolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/others/life/makeup.html" afterPath="$PROJECT_DIR$/others/life/makeup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp.html" afterPath="$PROJECT_DIR$/tmp.html" />
     </list>
     <ignored path="my-site.iws" />
@@ -33,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="todolist.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todolist.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/todolist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40605095">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="18" selection-end-column="57" />
+            <state vertical-scroll-proportion="-5.5882354">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.7860539">
+              <caret line="296" column="44" selection-start-line="296" selection-start-column="44" selection-end-line="296" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -58,8 +56,28 @@
       <file leaf-file-name="romantic.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/romantic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.208334">
-              <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+            <state vertical-scroll-proportion="-19.458334">
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/others/life/makeup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="romanticstyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/css/romanticstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -68,8 +86,8 @@
       <file leaf-file-name="component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/css/component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="508" column="25" selection-start-line="508" selection-start-column="25" selection-end-line="508" selection-end-column="25" />
+            <state vertical-scroll-proportion="-2.0952382">
+              <caret line="673" column="25" selection-start-line="673" selection-start-column="25" selection-end-line="673" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -110,7 +128,6 @@
         <option value="$PROJECT_DIR$/material/font.html" />
         <option value="$PROJECT_DIR$/material/css/fonts.css" />
         <option value="$PROJECT_DIR$/hello/by.html" />
-        <option value="$PROJECT_DIR$/book/css/romanticstyle.css" />
         <option value="$PROJECT_DIR$/hello/css/tzrstyle.css" />
         <option value="$PROJECT_DIR$/material/css/waterfalls.css" />
         <option value="$PROJECT_DIR$/material/waterfall.html" />
@@ -135,20 +152,21 @@
         <option value="$PROJECT_DIR$/css/travelmapstyle.css" />
         <option value="$PROJECT_DIR$/travelmap.html" />
         <option value="$PROJECT_DIR$/others/life/css/makeup.css" />
-        <option value="$PROJECT_DIR$/others/life/makeup.html" />
         <option value="$PROJECT_DIR$/interests/css/main.css" />
         <option value="$PROJECT_DIR$/interests/main.html" />
         <option value="$PROJECT_DIR$/book/css/todolistyle.css" />
         <option value="$PROJECT_DIR$/link.html" />
-        <option value="$PROJECT_DIR$/tmp.html" />
         <option value="$PROJECT_DIR$/tmp.js" />
         <option value="$PROJECT_DIR$/tmp.jsp" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/book/todolist.html" />
         <option value="$PROJECT_DIR$/book/css/default.css" />
+        <option value="$PROJECT_DIR$/book/css/romanticstyle.css" />
+        <option value="$PROJECT_DIR$/tmp.html" />
+        <option value="$PROJECT_DIR$/others/life/makeup.html" />
+        <option value="$PROJECT_DIR$/book/romantic.html" />
+        <option value="$PROJECT_DIR$/book/todolist.html" />
         <option value="$PROJECT_DIR$/book/css/component.css" />
         <option value="$PROJECT_DIR$/book/main.html" />
-        <option value="$PROJECT_DIR$/book/romantic.html" />
       </list>
     </option>
   </component>
@@ -198,7 +216,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -452,6 +469,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -998,11 +1016,36 @@
       <workItem from="1470904096129" duration="156000" />
       <workItem from="1470925790187" duration="870000" />
       <workItem from="1471182404150" duration="270000" />
+      <workItem from="1471412348338" duration="58000" />
+      <workItem from="1471440329384" duration="849000" />
+      <workItem from="1471441635205" duration="442000" />
+      <workItem from="1471605264657" duration="346000" />
+      <workItem from="1471689999500" duration="548000" />
+      <workItem from="1471836226183" duration="9003000" />
+      <workItem from="1472036383872" duration="546000" />
+      <workItem from="1472087309235" duration="2153000" />
+      <workItem from="1472134712945" duration="208000" />
+      <workItem from="1472201734675" duration="2200000" />
+      <workItem from="1472270233210" duration="690000" />
+      <workItem from="1472271245266" duration="5103000" />
+      <workItem from="1472306670652" duration="1302000" />
+      <workItem from="1473063110393" duration="752000" />
+      <workItem from="1473607913886" duration="24000" />
+      <workItem from="1473738974862" duration="274000" />
+      <workItem from="1473763486439" duration="639000" />
+      <workItem from="1474027375486" duration="598000" />
+      <workItem from="1474704743959" duration="90000" />
+      <workItem from="1475032098325" duration="499000" />
+      <workItem from="1475288341265" duration="454000" />
+      <workItem from="1475395745686" duration="760000" />
+      <workItem from="1475489962296" duration="1124000" />
+      <workItem from="1475491646734" duration="81000" />
+      <workItem from="1475496578789" duration="1538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132057000" />
+    <option name="totallyTimeSpent" value="162338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1011,12 +1054,12 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06464925" sideWeight="0.5058565" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.060522698" sideWeight="0.5058565" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1223,13 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/life/makeup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0591133">
-          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/others/life/css/makeup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1298,13 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35958904">
-          <caret line="14" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1354,13 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/css/romanticstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="3" selection-start-line="58" selection-start-column="23" selection-end-line="63" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/loverstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1389,37 +1411,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/main.html">
+    <entry file="file://$PROJECT_DIR$/tmp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/romantic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.208334">
-          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/css/component.css">
+    <entry file="file://$PROJECT_DIR$/others/life/makeup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="508" column="25" selection-start-line="508" selection-start-column="25" selection-end-line="508" selection-end-column="25" />
+          <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/todolist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40605095">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="18" selection-end-column="57" />
+        <state vertical-scroll-proportion="-5.5882354">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/romantic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.458334">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/css/romanticstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/css/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0952382">
+          <caret line="673" column="25" selection-start-line="673" selection-start-column="25" selection-end-line="673" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7860539">
+          <caret line="296" column="44" selection-start-line="296" selection-start-column="44" selection-end-line="296" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

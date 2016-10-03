@@ -657,6 +657,32 @@
 	color: #111;
 }
 
+/* Book 9*/
+
+#book-9 .bk-page,
+#book-9 .bk-right,
+#book-9 .bk-top,
+#book-9 .bk-bottom,
+#book-9 .bk-content {
+	background: #FFFAF0;
+}
+
+#book-9 .bk-front > div,
+#book-9 .bk-back,
+#book-9 .bk-left,
+#book-9 .bk-front:after {
+	background-color: #F7FAFA;
+}
+
+#book-9 .bk-cover {
+	background-image: url(../img/artoftravel.jpg);
+}
+
+#book-9 .bk-left h2 span{
+	color: #111;
+}
+
+
 .bk-list li .bk-page,
 .bk-list li .bk-right,
 .bk-list li .bk-top,

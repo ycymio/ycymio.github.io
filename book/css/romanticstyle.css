@@ -34,6 +34,8 @@ h3{
 }
 
 .title{
+    font-family: FangSong, Georgia, Times, "Times New Roman", serif;
+    /*color: darkblue;*/
     margin-bottom: 10px;
     color: chocolate;
     margin: 10px 0px;
@@ -83,4 +85,9 @@ p{
     color: #c47c6c;
     font-size: 15px;
     text-indent: 30px;
+}
+
+.drop-pages .content .title{
+    font-family: FangSong, Georgia, Times, "Times New Roman", serif;
+    color: darkblue;
 }
