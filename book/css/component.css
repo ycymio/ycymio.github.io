@@ -682,6 +682,31 @@
 	color: #111;
 }
 
+/* Book 10*/
+
+#book-10 .bk-page,
+#book-10 .bk-right,
+#book-10 .bk-top,
+#book-10 .bk-bottom,
+#book-10 .bk-content {
+	background: #f5f5f5;
+}
+
+#book-10 .bk-front > div,
+#book-10 .bk-back,
+#book-10 .bk-left,
+#book-10 .bk-front:after {
+	background-color: #fafafa;
+}
+
+#book-10 .bk-cover {
+	background-image: url(../img/suspectx.jpg);
+}
+
+#book-10 .bk-left h2 span{
+	color: #111;
+}
+
 
 .bk-list li .bk-page,
 .bk-list li .bk-right,
