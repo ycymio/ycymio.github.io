@@ -37,6 +37,11 @@ ul{
     margin-left: 8%;
 }
 
+/*[id = "already201601"]{*/
+    /*border-top: rgba(220, 82, 230, 1) dotted 3px;*/
+    /*padding-top: 20px;*/
+/*}*/
+
 .tododiv{
     border: 5px solid #c799e6;
     margin: 32px 10%;
@@ -47,4 +52,20 @@ ul{
 
 .others{
     margin: 32px 18%;
+}
+
+.lline{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    border: none;
+    border-top: rgba(220, 82, 230, 1) dotted 3px;
+}
+
+.sline{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 2px;
+    border: none;
+    border-top: #c799e6 dotted 3px;
 }

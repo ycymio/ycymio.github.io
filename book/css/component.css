@@ -707,6 +707,29 @@
 	color: #111;
 }
 
+#book-1701 .bk-page,
+#book-1701 .bk-right,
+#book-1701 .bk-top,
+#book-1701 .bk-bottom,
+#book-1701 .bk-content {
+	background: rgb(234, 255, 231);
+}
+
+#book-1701 .bk-front > div,
+#book-1701 .bk-back,
+#book-1701 .bk-left,
+#book-1701 .bk-front:after {
+	background-color: #2fb038;
+}
+
+#book-1701 .bk-cover {
+	background-image: url(../img/invisible.jpg);
+}
+
+#book-1701 .bk-left h2 span{
+	color: #111;
+}
+
 
 .bk-list li .bk-page,
 .bk-list li .bk-right,

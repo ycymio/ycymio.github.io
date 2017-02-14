@@ -25,10 +25,38 @@
     map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 
 
-
-
     var myGeo = new BMap.Geocoder();
     // 将地址解析结果显示在地图上,并调整地图视野
+    myGeo.getPoint("哈尔滨", function(point){
+        if (point) {
+            var myIcon = new BMap.Icon("./image/flag.png", new BMap.Size(80,67));
+            var marker = new BMap.Marker(point,{icon:myIcon});  // 创建标注
+            map.addOverlay(marker);              // 将标注添加到地图中
+            var sContent =
+                    "<h4>哈尔滨</h4>" +
+                    "<img style='float:right;margin:4px' id='imgDemo' src='./image/harbin.png' width='192' height='120' title='哈尔滨'/>" +
+                    "<p>出游时间: Dec. 31th, 2016 to Jan. 3rd, 2017</p>" +
+                    "<p>冰雪大世界, 松花江, 东北虎园, 中央大街, 滑雪。</p>" +
+                    "</div>"
+            var opts = {
+                width : 400,     // 信息窗口宽度
+                height: 150,     // 信息窗口高度
+            }
+            var infoWindow = new BMap.InfoWindow(sContent, opts);  // 创建信息窗口对象
+            marker.addEventListener("click", function(){
+                this.openInfoWindow(infoWindow);
+                //图片加载完毕重绘infowindow
+                document.getElementById('imgDemo').onload = function (){
+                    infoWindow.redraw();   //防止在网速较慢，图片未加载时，生成的信息框高度比图片的总高度小，导致图片部分被隐藏
+                }
+            });
+        }else{
+            alert("您选择地址没有解析到结果!");
+        }
+    }, "哈尔滨");
+
+
+
     myGeo.getPoint("湄潭县", function(point){
         if (point) {
 //            map.centerAndZoom(point, 28);
@@ -90,6 +118,5 @@
             alert("您选择地址没有解析到结果!");
         }
     }, "黄山市");
-
 
 </script>
