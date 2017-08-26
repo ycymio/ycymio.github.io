@@ -731,6 +731,99 @@
 }
 
 
+#book-1702 .bk-page,
+#book-1702 .bk-right,
+#book-1702 .bk-top,
+#book-1702 .bk-bottom,
+#book-1702 .bk-content {
+	background: lightgrey;
+}
+
+#book-1702 .bk-front > div,
+#book-1702 .bk-back,
+#book-1702 .bk-left,
+#book-1702 .bk-front:after {
+	background-color: black;
+}
+
+#book-1702 .bk-cover {
+	background-image: url(../img/chronicleofadeathforetold.jpg);
+}
+
+#book-1702 .bk-left h2 span{
+	color: orange;
+}
+
+
+#book-1703 .bk-page,
+#book-1703 .bk-right,
+#book-1703 .bk-top,
+#book-1703 .bk-bottom,
+#book-1703 .bk-content {
+	background: #fbfbfb;
+}
+
+#book-1703 .bk-front > div,
+#book-1703 .bk-back,
+#book-1703 .bk-left,
+#book-1703 .bk-front:after {
+	background-color: white;
+}
+
+#book-1703 .bk-cover {
+	background-image: url(../img/understandingthejvm.jpg);
+}
+
+#book-1703 .bk-left h2 span{
+	color: cornflowerblue;
+}
+
+#book_1704 .bk-page,
+#book_1704 .bk-right,
+#book_1704 .bk-top,
+#book_1704 .bk-bottom,
+#book_1704 .bk-content {
+	background: #fbfbfb;
+}
+
+#book_1704 .bk-front > div,
+#book_1704 .bk-back,
+#book_1704 .bk-left,
+#book_1704 .bk-front:after {
+	background-color: #97cfed;
+}
+
+#book_1704 .bk-cover {
+	background-image: url(../img/vetorica.jpg);
+}
+
+#book_1704 .bk-left h2 span{
+	color: black;
+}
+
+#book_1705 .bk-page,
+#book_1705 .bk-right,
+#book_1705 .bk-top,
+#book_1705 .bk-bottom,
+#book_1705 .bk-content {
+	background: #fbfbfb;
+}
+
+#book_1705 .bk-front > div,
+#book_1705 .bk-back,
+#book_1705 .bk-left,
+#book_1705 .bk-front:after {
+	background-color: #fbfbfb;
+}
+
+#book_1705 .bk-cover {
+	background-image: url(../img/http.jpg);
+}
+
+#book_1705 .bk-left h2 span{
+	color: black;
+}
+
 .bk-list li .bk-page,
 .bk-list li .bk-right,
 .bk-list li .bk-top,
