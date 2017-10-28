@@ -27,7 +27,7 @@
 	padding: 25px 0 10px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid rgba(0,0,0,0.3);
-	font-size: 26px;
+	font-size: 20px;
 }
 
 .bk-info h3 span:first-child {
@@ -824,6 +824,52 @@
 	color: black;
 }
 
+
+#book_1706 .bk-page,
+#book_1706 .bk-right,
+#book_1706 .bk-top,
+#book_1706 .bk-bottom,
+#book_1706 .bk-content {
+	background: #fbfbfb;
+}
+
+#book_1706 .bk-front > div,
+#book_1706 .bk-back,
+#book_1706 .bk-left,
+#book_1706 .bk-front:after {
+	background-color: #fbfbfb;
+}
+
+#book_1706 .bk-cover {
+	background-image: url(../img/javainterview.jpg);
+}
+
+#book_1706 .bk-left h2 span{
+	color: black;
+}
+
+#book_1707 .bk-page,
+#book_1707 .bk-right,
+#book_1707 .bk-top,
+#book_1707 .bk-bottom,
+#book_1707 .bk-content {
+	background: #fbfbfb;
+}
+
+#book_1707 .bk-front > div,
+#book_1707 .bk-back,
+#book_1707 .bk-left,
+#book_1707 .bk-front:after {
+	background-color: #fbfbfb;
+}
+
+#book_1707 .bk-cover {
+	background-image: url(../img/chinesecrackingtheinterview.jpg);
+}
+
+#book_1707 .bk-left h2 span{
+	color: black;
+}
 .bk-list li .bk-page,
 .bk-list li .bk-right,
 .bk-list li .bk-top,
