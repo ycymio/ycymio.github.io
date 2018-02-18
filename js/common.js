@@ -11,7 +11,7 @@ $(function(){
         document.getElementById("navibar_index").innerHTML = ' \
          <div class="container"> \
             <div class="navbar-header">\
-                <a class="navbar-brand" href="index.html">\
+                <a class="navbar-brand" href="/index.html">\
                 <img alt="Brand" src="/image/icon-green.png" height="48px" width="249px">\
                 </a>\
             </div>\
@@ -55,8 +55,8 @@ $(function(){
         document.getElementById("navibar_mio").innerHTML = ' \
         <div class="container"> \
             <div class="navbar-header"> \
-                <a class="navbar-brand" href="index.html"> \
-                    <img alt="Brand" src="image/icon-pure.png" height="48px" width="249px"> \
+                <a class="navbar-brand" href="/index.html"> \
+                    <img alt="Brand" src="/image/icon-pure.png" height="48px" width="249px"> \
                 </a> \
             </div> \
             <div class="dropdown-wrap boxed-velvet"> \
@@ -78,10 +78,10 @@ $(function(){
                             <span class="caret"></span> \
                         </a> \
                         <ul class="submenu-1" role="menu"> \
-                            <li><a href="logpage.html">About website</a></li> \
+                            <li><a href="/logpage.html">About website</a></li> \
                             <li><a href="#">About me</a></li> \
                             <li><a href="#">Calendar(P)</a></li> \
-                            <li><a href="link.html">Link</a></li> \
+                            <li><a href="/link.html">Link</a></li> \
                             <li><a href="#">留言模块</a></li> \
                         </ul> \
                     </li> \
