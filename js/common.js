@@ -94,7 +94,7 @@ $(function(){
             <div class="container"> \
             <div class="navbar-header">\
                 <a class="navbar-brand" href="/index.html">\
-                <img alt="Brand" src="/image/icon-green.png" height="48px" width="249px">\
+                <img alt="Brand" src="/image/icon-oldlace.png" height="48px" width="249px">\
                 </a>\
             </div>\
             <div class="collapse navbar-collapse">\
