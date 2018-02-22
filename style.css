@@ -215,3 +215,56 @@ body{
     height: 100%;
     top: -2px;
 }
+
+
+
+
+
+
+
+/*.navbar-brand{*/
+    /*padding: 0 16px 0 0;*/
+/*}*/
+
+/*.navbar-nav > li a{*/
+    /*font-size: 14px;*/
+    /*!*SimHei FangSong*!*/
+    /*text-transform: uppercase;*/
+    /*font-family: Lato,cursive,KaiTi_GB2312,SimSun,sans-serif;*/
+    /*font-weight: bolder;*/
+/*}*/
+
+#navibar_white .navbar-nav>li>a{
+    color: lightslategrey;
+    padding-right: 30px;
+}
+
+#navibar_white .navbar-nav>li>a:focus,#navibar_white .navbar-nav>li>a:hover{
+    color: darkgray;
+}
+
+#navibar_white .navbar-nav>.active>a,
+#navibar_white .navbar-nav>.active>a:focus,
+#navibar_white .navbar-nav>.active>a:hover{
+    color: darkgray;
+}
+
+#navibar_white .navbar-nav .dropdown-menu{
+    background-color: #f9f9f9;
+    border: none;
+}
+
+#navibar_white .navbar-nav .open .dropdown-menu>li>a{
+    color: #9daab6;
+    /*background-color: #2F2F2F;*/
+}
+
+#navibar_white .navbar-nav .open .dropdown-menu>li>a:focus,
+#navibar_white.navbar-nav .open .dropdown-menu>li>a:hover{
+    color: darkgray;
+    /*background-color:#2F2F2F;*/
+}
+
+#navibar_white {
+    margin-bottom: 0px;
+}
